@@ -1,0 +1,347 @@
+Article Title,Slug,Category,Sub-Category,Owner,Tags,Body (HTML),Meta Description
+Security Architecture,security-architecture,Network Security,VPN,Wilson S,"security, architecture",,Security Architecture implementation guide and best practices for cybersecurity.
+Threat Modeling,threat-modeling,Application Security,Mobile,Wilson S,"threat, modeling",,Threat Modeling implementation guide and best practices for cybersecurity.
+Risk Assessment,risk-assessment,Data Protection,Backup,Wilson S,"risk, assessment",,Risk Assessment implementation guide and best practices for cybersecurity.
+Security Testing,security-testing,Identity & Access,IAM,Wilson S,"security, testing",,Security Testing implementation guide and best practices for cybersecurity.
+Vulnerability Management,vulnerability-management,Threat Intelligence,Threat Hunting,Wilson S,"vulnerability, management",,Vulnerability Management implementation guide and best practices for cybersecurity.
+Patch Management,patch-management,Compliance & Governance,Policies,Wilson S,"patch, management",,Patch Management implementation guide and best practices for cybersecurity.
+Configuration Management,configuration-management,Endpoint Security,Protection,Wilson S,"configuration, management",,Configuration Management implementation guide and best practices for cybersecurity.
+Change Management,change-management,Security Operations,SOC,Wilson S,"change, management",,Change Management implementation guide and best practices for cybersecurity.
+Asset Management,asset-management,Emerging Technologies,AI/ML,Wilson S,"asset, management",,Asset Management implementation guide and best practices for cybersecurity.
+Security Monitoring,security-monitoring,Cloud Security,Serverless,Wilson S,"security, monitoring",,Security Monitoring implementation guide and best practices for cybersecurity.
+Log Management,log-management,Network Security,VPN,Wilson S,"log, management",,Log Management implementation guide and best practices for cybersecurity.
+Alert Management,alert-management,Application Security,Web Security,Wilson S,"alert, management",,Alert Management implementation guide and best practices for cybersecurity.
+Incident Classification,incident-classification,Data Protection,DLP,Wilson S,"incident, classification",,Incident Classification implementation guide and best practices for cybersecurity.
+Incident Containment,incident-containment,Identity & Access,MFA,Wilson S,"incident, containment",,Incident Containment implementation guide and best practices for cybersecurity.
+Incident Eradication,incident-eradication,Threat Intelligence,TTPs,Wilson S,"incident, eradication",,Incident Eradication implementation guide and best practices for cybersecurity.
+Incident Recovery,incident-recovery,Compliance & Governance,Frameworks,Wilson S,"incident, recovery",,Incident Recovery implementation guide and best practices for cybersecurity.
+Lessons Learned,lessons-learned,Endpoint Security,MDM,Wilson S,"lessons, learned",,Lessons Learned implementation guide and best practices for cybersecurity.
+Threat Analysis,threat-analysis,Security Operations,Incident Response,Wilson S,"threat, analysis",,Threat Analysis implementation guide and best practices for cybersecurity.
+Malware Analysis,malware-analysis,Emerging Technologies,Quantum,Wilson S,"malware, analysis",,Malware Analysis implementation guide and best practices for cybersecurity.
+Forensic Analysis,forensic-analysis,Cloud Security,GCP,Wilson S,"forensic, analysis",,Forensic Analysis implementation guide and best practices for cybersecurity.
+Root Cause Analysis,root-cause-analysis,Network Security,VPN,Wilson S,"root, cause, analysis",,Root Cause Analysis implementation guide and best practices for cybersecurity.
+Impact Assessment,impact-assessment,Application Security,Mobile,Wilson S,"impact, assessment",,Impact Assessment implementation guide and best practices for cybersecurity.
+Business Continuity,business-continuity,Data Protection,Backup,Wilson S,"business, continuity",,Business Continuity implementation guide and best practices for cybersecurity.
+Disaster Recovery,disaster-recovery,Identity & Access,IAM,Wilson S,"disaster, recovery",,Disaster Recovery implementation guide and best practices for cybersecurity.
+Crisis Management,crisis-management,Threat Intelligence,Threat Hunting,Wilson S,"crisis, management",,Crisis Management implementation guide and best practices for cybersecurity.
+Emergency Response,emergency-response,Compliance & Governance,Policies,Wilson S,"emergency, response",,Emergency Response implementation guide and best practices for cybersecurity.
+Security Awareness,security-awareness,Endpoint Security,Protection,Wilson S,"security, awareness",,Security Awareness implementation guide and best practices for cybersecurity.
+Security Training,security-training,Security Operations,SOC,Wilson S,"security, training",,Security Training implementation guide and best practices for cybersecurity.
+Security Culture,security-culture,Emerging Technologies,AI/ML,Wilson S,"security, culture",,Security Culture implementation guide and best practices for cybersecurity.
+Security Champions,security-champions,Cloud Security,AWS,Wilson S,"security, champions",,Security Champions implementation guide and best practices for cybersecurity.
+Security Metrics,security-metrics,Network Security,VPN,Wilson S,"security, metrics",,Security Metrics implementation guide and best practices for cybersecurity.
+Security KPIs,security-kpis,Application Security,Web Security,Wilson S,"security, kpis",,Security KPIs implementation guide and best practices for cybersecurity.
+Security Dashboards,security-dashboards,Data Protection,DLP,Wilson S,"security, dashboards",,Security Dashboards implementation guide and best practices for cybersecurity.
+Security Reporting,security-reporting,Identity & Access,MFA,Wilson S,"security, reporting",,Security Reporting implementation guide and best practices for cybersecurity.
+Executive Reporting,executive-reporting,Threat Intelligence,TTPs,Wilson S,"executive, reporting",,Executive Reporting implementation guide and best practices for cybersecurity.
+Board Reporting,board-reporting,Compliance & Governance,Frameworks,Wilson S,"board, reporting",,Board Reporting implementation guide and best practices for cybersecurity.
+Compliance Reporting,compliance-reporting,Endpoint Security,MDM,Wilson S,"compliance, reporting",,Compliance Reporting implementation guide and best practices for cybersecurity.
+Audit Reporting,audit-reporting,Security Operations,Incident Response,Wilson S,"audit, reporting",,Audit Reporting implementation guide and best practices for cybersecurity.
+Risk Reporting,risk-reporting,Emerging Technologies,Quantum,Wilson S,"risk, reporting",,Risk Reporting implementation guide and best practices for cybersecurity.
+Threat Reporting,threat-reporting,Cloud Security,Serverless,Wilson S,"threat, reporting",,Threat Reporting implementation guide and best practices for cybersecurity.
+Incident Reporting,incident-reporting,Network Security,VPN,Wilson S,"incident, reporting",,Incident Reporting implementation guide and best practices for cybersecurity.
+Vulnerability Reporting,vulnerability-reporting,Application Security,Mobile,Wilson S,"vulnerability, reporting",,Vulnerability Reporting implementation guide and best practices for cybersecurity.
+Penetration Testing Tools,penetration-testing-tools,Data Protection,Backup,Wilson S,"penetration, testing, tools",,Penetration Testing Tools implementation guide and best practices for cybersecurity.
+Security Testing Tools,security-testing-tools,Identity & Access,IAM,Wilson S,"security, testing, tools",,Security Testing Tools implementation guide and best practices for cybersecurity.
+Monitoring Tools,monitoring-tools,Threat Intelligence,Threat Hunting,Wilson S,"monitoring, tools",,Monitoring Tools implementation guide and best practices for cybersecurity.
+Analysis Tools,analysis-tools,Compliance & Governance,Policies,Wilson S,"analysis, tools",,Analysis Tools implementation guide and best practices for cybersecurity.
+Forensics Tools,forensics-tools,Endpoint Security,Protection,Wilson S,"forensics, tools",,Forensics Tools implementation guide and best practices for cybersecurity.
+Malware Tools,malware-tools,Security Operations,SOC,Wilson S,"malware, tools",,Malware Tools implementation guide and best practices for cybersecurity.
+Network Tools,network-tools,Emerging Technologies,AI/ML,Wilson S,"network, tools",,Network Tools implementation guide and best practices for cybersecurity.
+Cloud Tools,cloud-tools,Cloud Security,GCP,Wilson S,"cloud, tools",,Cloud Tools implementation guide and best practices for cybersecurity.
+Security Automation,security-automation,Network Security,VPN,Wilson S,"security, automation",,Security Automation implementation guide and best practices for cybersecurity.
+Security Orchestration,security-orchestration,Application Security,Web Security,Wilson S,"security, orchestration",,Security Orchestration implementation guide and best practices for cybersecurity.
+Workflow Automation,workflow-automation,Data Protection,DLP,Wilson S,"workflow, automation",,Workflow Automation implementation guide and best practices for cybersecurity.
+Playbook Development,playbook-development,Identity & Access,MFA,Wilson S,"playbook, development",,Playbook Development implementation guide and best practices for cybersecurity.
+Runbook Creation,runbook-creation,Threat Intelligence,TTPs,Wilson S,"runbook, creation",,Runbook Creation implementation guide and best practices for cybersecurity.
+Process Automation,process-automation,Compliance & Governance,Frameworks,Wilson S,"process, automation",,Process Automation implementation guide and best practices for cybersecurity.
+Tool Integration,tool-integration,Endpoint Security,MDM,Wilson S,"tool, integration",,Tool Integration implementation guide and best practices for cybersecurity.
+API Integration,api-integration,Security Operations,Incident Response,Wilson S,"api, integration",,API Integration implementation guide and best practices for cybersecurity.
+SIEM Integration,siem-integration,Emerging Technologies,Quantum,Wilson S,"siem, integration",,SIEM Integration implementation guide and best practices for cybersecurity.
+EDR Integration,edr-integration,Cloud Security,AWS,Wilson S,"edr, integration",,EDR Integration implementation guide and best practices for cybersecurity.
+Cloud Integration,cloud-integration,Network Security,VPN,Wilson S,"cloud, integration",,Cloud Integration implementation guide and best practices for cybersecurity.
+Third-Party Integration,third-party-integration,Application Security,Mobile,Wilson S,"third-party, integration",,Third-Party Integration implementation guide and best practices for cybersecurity.
+Vendor Integration,vendor-integration,Data Protection,Backup,Wilson S,"vendor, integration",,Vendor Integration implementation guide and best practices for cybersecurity.
+Partner Integration,partner-integration,Identity & Access,IAM,Wilson S,"partner, integration",,Partner Integration implementation guide and best practices for cybersecurity.
+Security Operations Center,security-operations-center,Threat Intelligence,Threat Hunting,Wilson S,"security, operations, center",,Security Operations Center implementation guide and best practices for cybersecurity.
+Network Operations Center,network-operations-center,Compliance & Governance,Policies,Wilson S,"network, operations, center",,Network Operations Center implementation guide and best practices for cybersecurity.
+Command Center,command-center,Endpoint Security,Protection,Wilson S,"command, center",,Command Center implementation guide and best practices for cybersecurity.
+Fusion Center,fusion-center,Security Operations,SOC,Wilson S,"fusion, center",,Fusion Center implementation guide and best practices for cybersecurity.
+Threat Intelligence Center,threat-intelligence-center,Emerging Technologies,AI/ML,Wilson S,"threat, intelligence, center",,Threat Intelligence Center implementation guide and best practices for cybersecurity.
+Research Center,research-center,Cloud Security,Serverless,Wilson S,"research, center",,Research Center implementation guide and best practices for cybersecurity.
+Analysis Center,analysis-center,Network Security,VPN,Wilson S,"analysis, center",,Analysis Center implementation guide and best practices for cybersecurity.
+Security Strategy,security-strategy,Application Security,Web Security,Wilson S,"security, strategy",,Security Strategy implementation guide and best practices for cybersecurity.
+Security Roadmap,security-roadmap,Data Protection,DLP,Wilson S,"security, roadmap",,Security Roadmap implementation guide and best practices for cybersecurity.
+Security Planning,security-planning,Identity & Access,MFA,Wilson S,"security, planning",,Security Planning implementation guide and best practices for cybersecurity.
+Security Budget,security-budget,Threat Intelligence,TTPs,Wilson S,"security, budget",,Security Budget implementation guide and best practices for cybersecurity.
+Security Investment,security-investment,Compliance & Governance,Frameworks,Wilson S,"security, investment",,Security Investment implementation guide and best practices for cybersecurity.
+Security ROI,security-roi,Endpoint Security,MDM,Wilson S,"security, roi",,Security ROI implementation guide and best practices for cybersecurity.
+Cost Optimization,cost-optimization,Security Operations,Incident Response,Wilson S,"cost, optimization",,Cost Optimization implementation guide and best practices for cybersecurity.
+Resource Allocation,resource-allocation,Emerging Technologies,Quantum,Wilson S,"resource, allocation",,Resource Allocation implementation guide and best practices for cybersecurity.
+Team Building,team-building,Cloud Security,GCP,Wilson S,"team, building",,Team Building implementation guide and best practices for cybersecurity.
+Talent Acquisition,talent-acquisition,Network Security,VPN,Wilson S,"talent, acquisition",,Talent Acquisition implementation guide and best practices for cybersecurity.
+Skills Development,skills-development,Application Security,Mobile,Wilson S,"skills, development",,Skills Development implementation guide and best practices for cybersecurity.
+Training Programs,training-programs,Data Protection,Backup,Wilson S,"training, programs",,Training Programs implementation guide and best practices for cybersecurity.
+Certification Programs,certification-programs,Identity & Access,IAM,Wilson S,"certification, programs",,Certification Programs implementation guide and best practices for cybersecurity.
+Career Development,career-development,Threat Intelligence,Threat Hunting,Wilson S,"career, development",,Career Development implementation guide and best practices for cybersecurity.
+Succession Planning,succession-planning,Compliance & Governance,Policies,Wilson S,"succession, planning",,Succession Planning implementation guide and best practices for cybersecurity.
+Organizational Design,organizational-design,Endpoint Security,Protection,Wilson S,"organizational, design",,Organizational Design implementation guide and best practices for cybersecurity.
+Team Structure,team-structure,Security Operations,SOC,Wilson S,"team, structure",,Team Structure implementation guide and best practices for cybersecurity.
+Roles and Responsibilities,roles-and-responsibilities,Emerging Technologies,AI/ML,Wilson S,"roles, and, responsibilities",,Roles and Responsibilities implementation guide and best practices for cybersecurity.
+Security Governance,security-governance,Cloud Security,AWS,Wilson S,"security, governance",,Security Governance implementation guide and best practices for cybersecurity.
+Security Policy,security-policy,Network Security,VPN,Wilson S,"security, policy",,Security Policy implementation guide and best practices for cybersecurity.
+Security Standards,security-standards,Application Security,Web Security,Wilson S,"security, standards",,Security Standards implementation guide and best practices for cybersecurity.
+Security Procedures,security-procedures,Data Protection,DLP,Wilson S,"security, procedures",,Security Procedures implementation guide and best practices for cybersecurity.
+Security Guidelines,security-guidelines,Identity & Access,MFA,Wilson S,"security, guidelines",,Security Guidelines implementation guide and best practices for cybersecurity.
+Security Baselines,security-baselines,Threat Intelligence,TTPs,Wilson S,"security, baselines",,Security Baselines implementation guide and best practices for cybersecurity.
+Security Controls,security-controls,Compliance & Governance,Frameworks,Wilson S,"security, controls",,Security Controls implementation guide and best practices for cybersecurity.
+Compensating Controls,compensating-controls,Endpoint Security,MDM,Wilson S,"compensating, controls",,Compensating Controls implementation guide and best practices for cybersecurity.
+Detective Controls,detective-controls,Security Operations,Incident Response,Wilson S,"detective, controls",,Detective Controls implementation guide and best practices for cybersecurity.
+Preventive Controls,preventive-controls,Emerging Technologies,Quantum,Wilson S,"preventive, controls",,Preventive Controls implementation guide and best practices for cybersecurity.
+Corrective Controls,corrective-controls,Cloud Security,Serverless,Wilson S,"corrective, controls",,Corrective Controls implementation guide and best practices for cybersecurity.
+Recovery Controls,recovery-controls,Network Security,VPN,Wilson S,"recovery, controls",,Recovery Controls implementation guide and best practices for cybersecurity.
+Administrative Controls,administrative-controls,Application Security,Mobile,Wilson S,"administrative, controls",,Administrative Controls implementation guide and best practices for cybersecurity.
+Technical Controls,technical-controls,Data Protection,Backup,Wilson S,"technical, controls",,Technical Controls implementation guide and best practices for cybersecurity.
+Physical Controls,physical-controls,Identity & Access,IAM,Wilson S,"physical, controls",,Physical Controls implementation guide and best practices for cybersecurity.
+Access Control Lists,access-control-lists,Threat Intelligence,Threat Hunting,Wilson S,"access, control, lists",,Access Control Lists implementation guide and best practices for cybersecurity.
+Security Groups,security-groups,Compliance & Governance,Policies,Wilson S,"security, groups",,Security Groups implementation guide and best practices for cybersecurity.
+Network Policies,network-policies,Endpoint Security,Protection,Wilson S,"network, policies",,Network Policies implementation guide and best practices for cybersecurity.
+Firewall Rules,firewall-rules,Security Operations,SOC,Wilson S,"firewall, rules",,Firewall Rules implementation guide and best practices for cybersecurity.
+IDS Rules,ids-rules,Emerging Technologies,AI/ML,Wilson S,"ids, rules",,IDS Rules implementation guide and best practices for cybersecurity.
+IPS Rules,ips-rules,Cloud Security,GCP,Wilson S,"ips, rules",,IPS Rules implementation guide and best practices for cybersecurity.
+SIEM Rules,siem-rules,Network Security,VPN,Wilson S,"siem, rules",,SIEM Rules implementation guide and best practices for cybersecurity.
+Detection Rules,detection-rules,Application Security,Web Security,Wilson S,"detection, rules",,Detection Rules implementation guide and best practices for cybersecurity.
+Correlation Rules,correlation-rules,Data Protection,DLP,Wilson S,"correlation, rules",,Correlation Rules implementation guide and best practices for cybersecurity.
+Alerting Rules,alerting-rules,Identity & Access,MFA,Wilson S,"alerting, rules",,Alerting Rules implementation guide and best practices for cybersecurity.
+Notification Rules,notification-rules,Threat Intelligence,TTPs,Wilson S,"notification, rules",,Notification Rules implementation guide and best practices for cybersecurity.
+Escalation Rules,escalation-rules,Compliance & Governance,Frameworks,Wilson S,"escalation, rules",,Escalation Rules implementation guide and best practices for cybersecurity.
+Response Rules,response-rules,Endpoint Security,MDM,Wilson S,"response, rules",,Response Rules implementation guide and best practices for cybersecurity.
+Containment Procedures,containment-procedures,Security Operations,Incident Response,Wilson S,"containment, procedures",,Containment Procedures implementation guide and best practices for cybersecurity.
+Eradication Procedures,eradication-procedures,Emerging Technologies,Quantum,Wilson S,"eradication, procedures",,Eradication Procedures implementation guide and best practices for cybersecurity.
+Recovery Procedures,recovery-procedures,Cloud Security,AWS,Wilson S,"recovery, procedures",,Recovery Procedures implementation guide and best practices for cybersecurity.
+Communication Plans,communication-plans,Network Security,VPN,Wilson S,"communication, plans",,Communication Plans implementation guide and best practices for cybersecurity.
+Notification Plans,notification-plans,Application Security,Mobile,Wilson S,"notification, plans",,Notification Plans implementation guide and best practices for cybersecurity.
+Escalation Plans,escalation-plans,Data Protection,Backup,Wilson S,"escalation, plans",,Escalation Plans implementation guide and best practices for cybersecurity.
+Contact Lists,contact-lists,Identity & Access,IAM,Wilson S,"contact, lists",,Contact Lists implementation guide and best practices for cybersecurity.
+Emergency Contacts,emergency-contacts,Threat Intelligence,Threat Hunting,Wilson S,"emergency, contacts",,Emergency Contacts implementation guide and best practices for cybersecurity.
+Stakeholder Management,stakeholder-management,Compliance & Governance,Policies,Wilson S,"stakeholder, management",,Stakeholder Management implementation guide and best practices for cybersecurity.
+Customer Communication,customer-communication,Endpoint Security,Protection,Wilson S,"customer, communication",,Customer Communication implementation guide and best practices for cybersecurity.
+Media Relations,media-relations,Security Operations,SOC,Wilson S,"media, relations",,Media Relations implementation guide and best practices for cybersecurity.
+Public Relations,public-relations,Emerging Technologies,AI/ML,Wilson S,"public, relations",,Public Relations implementation guide and best practices for cybersecurity.
+Crisis Communication,crisis-communication,Cloud Security,Serverless,Wilson S,"crisis, communication",,Crisis Communication implementation guide and best practices for cybersecurity.
+Internal Communication,internal-communication,Network Security,VPN,Wilson S,"internal, communication",,Internal Communication implementation guide and best practices for cybersecurity.
+Security Documentation,security-documentation,Application Security,Web Security,Wilson S,"security, documentation",,Security Documentation implementation guide and best practices for cybersecurity.
+Technical Documentation,technical-documentation,Data Protection,DLP,Wilson S,"technical, documentation",,Technical Documentation implementation guide and best practices for cybersecurity.
+User Documentation,user-documentation,Identity & Access,MFA,Wilson S,"user, documentation",,User Documentation implementation guide and best practices for cybersecurity.
+Administrator Documentation,administrator-documentation,Threat Intelligence,TTPs,Wilson S,"administrator, documentation",,Administrator Documentation implementation guide and best practices for cybersecurity.
+Developer Documentation,developer-documentation,Compliance & Governance,Frameworks,Wilson S,"developer, documentation",,Developer Documentation implementation guide and best practices for cybersecurity.
+Architecture Documentation,architecture-documentation,Endpoint Security,MDM,Wilson S,"architecture, documentation",,Architecture Documentation implementation guide and best practices for cybersecurity.
+Design Documentation,design-documentation,Security Operations,Incident Response,Wilson S,"design, documentation",,Design Documentation implementation guide and best practices for cybersecurity.
+Configuration Documentation,configuration-documentation,Emerging Technologies,Quantum,Wilson S,"configuration, documentation",,Configuration Documentation implementation guide and best practices for cybersecurity.
+Operations Documentation,operations-documentation,Cloud Security,GCP,Wilson S,"operations, documentation",,Operations Documentation implementation guide and best practices for cybersecurity.
+Maintenance Documentation,maintenance-documentation,Network Security,VPN,Wilson S,"maintenance, documentation",,Maintenance Documentation implementation guide and best practices for cybersecurity.
+Troubleshooting Guides,troubleshooting-guides,Application Security,Mobile,Wilson S,"troubleshooting, guides",,Troubleshooting Guides implementation guide and best practices for cybersecurity.
+FAQ Documents,faq-documents,Data Protection,Backup,Wilson S,"faq, documents",,FAQ Documents implementation guide and best practices for cybersecurity.
+Knowledge Base Articles,knowledge-base-articles,Identity & Access,IAM,Wilson S,"knowledge, base, articles",,Knowledge Base Articles implementation guide and best practices for cybersecurity.
+Wiki Pages,wiki-pages,Threat Intelligence,Threat Hunting,Wilson S,"wiki, pages",,Wiki Pages implementation guide and best practices for cybersecurity.
+Confluence Pages,confluence-pages,Compliance & Governance,Policies,Wilson S,"confluence, pages",,Confluence Pages implementation guide and best practices for cybersecurity.
+SharePoint Sites,sharepoint-sites,Endpoint Security,Protection,Wilson S,"sharepoint, sites",,SharePoint Sites implementation guide and best practices for cybersecurity.
+Security Portals,security-portals,Security Operations,SOC,Wilson S,"security, portals",,Security Portals implementation guide and best practices for cybersecurity.
+Incident Portals,incident-portals,Emerging Technologies,AI/ML,Wilson S,"incident, portals",,Incident Portals implementation guide and best practices for cybersecurity.
+Threat Portals,threat-portals,Cloud Security,AWS,Wilson S,"threat, portals",,Threat Portals implementation guide and best practices for cybersecurity.
+Vulnerability Portals,vulnerability-portals,Network Security,VPN,Wilson S,"vulnerability, portals",,Vulnerability Portals implementation guide and best practices for cybersecurity.
+Compliance Portals,compliance-portals,Application Security,Web Security,Wilson S,"compliance, portals",,Compliance Portals implementation guide and best practices for cybersecurity.
+Audit Portals,audit-portals,Data Protection,DLP,Wilson S,"audit, portals",,Audit Portals implementation guide and best practices for cybersecurity.
+Risk Portals,risk-portals,Identity & Access,MFA,Wilson S,"risk, portals",,Risk Portals implementation guide and best practices for cybersecurity.
+Policy Portals,policy-portals,Threat Intelligence,TTPs,Wilson S,"policy, portals",,Policy Portals implementation guide and best practices for cybersecurity.
+Training Portals,training-portals,Compliance & Governance,Frameworks,Wilson S,"training, portals",,Training Portals implementation guide and best practices for cybersecurity.
+Resource Portals,resource-portals,Endpoint Security,MDM,Wilson S,"resource, portals",,Resource Portals implementation guide and best practices for cybersecurity.
+Tool Portals,tool-portals,Security Operations,Incident Response,Wilson S,"tool, portals",,Tool Portals implementation guide and best practices for cybersecurity.
+Dashboard Portals,dashboard-portals,Emerging Technologies,Quantum,Wilson S,"dashboard, portals",,Dashboard Portals implementation guide and best practices for cybersecurity.
+Reporting Portals,reporting-portals,Cloud Security,Serverless,Wilson S,"reporting, portals",,Reporting Portals implementation guide and best practices for cybersecurity.
+Analytics Portals,analytics-portals,Network Security,VPN,Wilson S,"analytics, portals",,Analytics Portals implementation guide and best practices for cybersecurity.
+Monitoring Portals,monitoring-portals,Application Security,Mobile,Wilson S,"monitoring, portals",,Monitoring Portals implementation guide and best practices for cybersecurity.
+Management Portals,management-portals,Data Protection,Backup,Wilson S,"management, portals",,Management Portals implementation guide and best practices for cybersecurity.
+Security Services,security-services,Identity & Access,IAM,Wilson S,"security, services",,Security Services implementation guide and best practices for cybersecurity.
+Managed Services,managed-services,Threat Intelligence,Threat Hunting,Wilson S,"managed, services",,Managed Services implementation guide and best practices for cybersecurity.
+Professional Services,professional-services,Compliance & Governance,Policies,Wilson S,"professional, services",,Professional Services implementation guide and best practices for cybersecurity.
+Consulting Services,consulting-services,Endpoint Security,Protection,Wilson S,"consulting, services",,Consulting Services implementation guide and best practices for cybersecurity.
+Advisory Services,advisory-services,Security Operations,SOC,Wilson S,"advisory, services",,Advisory Services implementation guide and best practices for cybersecurity.
+Assessment Services,assessment-services,Emerging Technologies,AI/ML,Wilson S,"assessment, services",,Assessment Services implementation guide and best practices for cybersecurity.
+Testing Services,testing-services,Cloud Security,GCP,Wilson S,"testing, services",,Testing Services implementation guide and best practices for cybersecurity.
+Audit Services,audit-services,Network Security,VPN,Wilson S,"audit, services",,Audit Services implementation guide and best practices for cybersecurity.
+Compliance Services,compliance-services,Application Security,Web Security,Wilson S,"compliance, services",,Compliance Services implementation guide and best practices for cybersecurity.
+Training Services,training-services,Data Protection,DLP,Wilson S,"training, services",,Training Services implementation guide and best practices for cybersecurity.
+Support Services,support-services,Identity & Access,MFA,Wilson S,"support, services",,Support Services implementation guide and best practices for cybersecurity.
+Maintenance Services,maintenance-services,Threat Intelligence,TTPs,Wilson S,"maintenance, services",,Maintenance Services implementation guide and best practices for cybersecurity.
+Cloud Services,cloud-services,Compliance & Governance,Frameworks,Wilson S,"cloud, services",,Cloud Services implementation guide and best practices for cybersecurity.
+Platform Services,platform-services,Endpoint Security,MDM,Wilson S,"platform, services",,Platform Services implementation guide and best practices for cybersecurity.
+Infrastructure Services,infrastructure-services,Security Operations,Incident Response,Wilson S,"infrastructure, services",,Infrastructure Services implementation guide and best practices for cybersecurity.
+Software Services,software-services,Emerging Technologies,Quantum,Wilson S,"software, services",,Software Services implementation guide and best practices for cybersecurity.
+Security Products,security-products,Cloud Security,AWS,Wilson S,"security, products",,Security Products implementation guide and best practices for cybersecurity.
+Security Solutions,security-solutions,Network Security,VPN,Wilson S,"security, solutions",,Security Solutions implementation guide and best practices for cybersecurity.
+Security Platforms,security-platforms,Application Security,Mobile,Wilson S,"security, platforms",,Security Platforms implementation guide and best practices for cybersecurity.
+Security Tools,security-tools,Data Protection,Backup,Wilson S,"security, tools",,Security Tools implementation guide and best practices for cybersecurity.
+Security Appliances,security-appliances,Identity & Access,IAM,Wilson S,"security, appliances",,Security Appliances implementation guide and best practices for cybersecurity.
+Security Software,security-software,Threat Intelligence,Threat Hunting,Wilson S,"security, software",,Security Software implementation guide and best practices for cybersecurity.
+Security Hardware,security-hardware,Compliance & Governance,Policies,Wilson S,"security, hardware",,Security Hardware implementation guide and best practices for cybersecurity.
+Security Firmware,security-firmware,Endpoint Security,Protection,Wilson S,"security, firmware",,Security Firmware implementation guide and best practices for cybersecurity.
+Security Applications,security-applications,Security Operations,SOC,Wilson S,"security, applications",,Security Applications implementation guide and best practices for cybersecurity.
+Security Modules,security-modules,Emerging Technologies,AI/ML,Wilson S,"security, modules",,Security Modules implementation guide and best practices for cybersecurity.
+Security Plugins,security-plugins,Cloud Security,Serverless,Wilson S,"security, plugins",,Security Plugins implementation guide and best practices for cybersecurity.
+Security Extensions,security-extensions,Network Security,VPN,Wilson S,"security, extensions",,Security Extensions implementation guide and best practices for cybersecurity.
+Security Add-ons,security-add-ons,Application Security,Web Security,Wilson S,"security, add-ons",,Security Add-ons implementation guide and best practices for cybersecurity.
+Security Integrations,security-integrations,Data Protection,DLP,Wilson S,"security, integrations",,Security Integrations implementation guide and best practices for cybersecurity.
+Security Connectors,security-connectors,Identity & Access,MFA,Wilson S,"security, connectors",,Security Connectors implementation guide and best practices for cybersecurity.
+Security Adapters,security-adapters,Threat Intelligence,TTPs,Wilson S,"security, adapters",,Security Adapters implementation guide and best practices for cybersecurity.
+Security APIs,security-apis,Compliance & Governance,Frameworks,Wilson S,"security, apis",,Security APIs implementation guide and best practices for cybersecurity.
+Security SDKs,security-sdks,Endpoint Security,MDM,Wilson S,"security, sdks",,Security SDKs implementation guide and best practices for cybersecurity.
+Security Libraries,security-libraries,Security Operations,Incident Response,Wilson S,"security, libraries",,Security Libraries implementation guide and best practices for cybersecurity.
+Security Frameworks,security-frameworks,Emerging Technologies,Quantum,Wilson S,"security, frameworks",,Security Frameworks implementation guide and best practices for cybersecurity.
+Security Templates,security-templates,Cloud Security,GCP,Wilson S,"security, templates",,Security Templates implementation guide and best practices for cybersecurity.
+Security Patterns,security-patterns,Network Security,VPN,Wilson S,"security, patterns",,Security Patterns implementation guide and best practices for cybersecurity.
+Security Best Practices,security-best-practices,Application Security,Mobile,Wilson S,"security, best, practices",,Security Best Practices implementation guide and best practices for cybersecurity.
+Security Recommendations,security-recommendations,Data Protection,Backup,Wilson S,"security, recommendations",,Security Recommendations implementation guide and best practices for cybersecurity.
+Security Guidelines,security-guidelines,Identity & Access,IAM,Wilson S,"security, guidelines",,Security Guidelines implementation guide and best practices for cybersecurity.
+Security Tips,security-tips,Threat Intelligence,Threat Hunting,Wilson S,"security, tips",,Security Tips implementation guide and best practices for cybersecurity.
+Security Tricks,security-tricks,Compliance & Governance,Policies,Wilson S,"security, tricks",,Security Tricks implementation guide and best practices for cybersecurity.
+Security Hacks,security-hacks,Endpoint Security,Protection,Wilson S,"security, hacks",,Security Hacks implementation guide and best practices for cybersecurity.
+Security Workarounds,security-workarounds,Security Operations,SOC,Wilson S,"security, workarounds",,Security Workarounds implementation guide and best practices for cybersecurity.
+Security Fixes,security-fixes,Emerging Technologies,AI/ML,Wilson S,"security, fixes",,Security Fixes implementation guide and best practices for cybersecurity.
+Security Patches,security-patches,Cloud Security,AWS,Wilson S,"security, patches",,Security Patches implementation guide and best practices for cybersecurity.
+Security Updates,security-updates,Network Security,VPN,Wilson S,"security, updates",,Security Updates implementation guide and best practices for cybersecurity.
+Security Upgrades,security-upgrades,Application Security,Web Security,Wilson S,"security, upgrades",,Security Upgrades implementation guide and best practices for cybersecurity.
+Security Migrations,security-migrations,Data Protection,DLP,Wilson S,"security, migrations",,Security Migrations implementation guide and best practices for cybersecurity.
+Security Transitions,security-transitions,Identity & Access,MFA,Wilson S,"security, transitions",,Security Transitions implementation guide and best practices for cybersecurity.
+Legacy System Security,legacy-system-security,Threat Intelligence,TTPs,Wilson S,"legacy, system, security",,Legacy System Security implementation guide and best practices for cybersecurity.
+Mainframe Security,mainframe-security,Compliance & Governance,Frameworks,Wilson S,"mainframe, security",,Mainframe Security implementation guide and best practices for cybersecurity.
+AS/400 Security,as-400-security,Endpoint Security,MDM,Wilson S,"as/400, security",,AS/400 Security implementation guide and best practices for cybersecurity.
+Unix Security,unix-security,Security Operations,Incident Response,Wilson S,"unix, security",,Unix Security implementation guide and best practices for cybersecurity.
+Solaris Security,solaris-security,Emerging Technologies,Quantum,Wilson S,"solaris, security",,Solaris Security implementation guide and best practices for cybersecurity.
+AIX Security,aix-security,Cloud Security,Serverless,Wilson S,"aix, security",,AIX Security implementation guide and best practices for cybersecurity.
+HP-UX Security,hp-ux-security,Network Security,VPN,Wilson S,"hp-ux, security",,HP-UX Security implementation guide and best practices for cybersecurity.
+BSD Security,bsd-security,Application Security,Mobile,Wilson S,"bsd, security",,BSD Security implementation guide and best practices for cybersecurity.
+FreeBSD Security,freebsd-security,Data Protection,Backup,Wilson S,"freebsd, security",,FreeBSD Security implementation guide and best practices for cybersecurity.
+OpenBSD Security,openbsd-security,Identity & Access,IAM,Wilson S,"openbsd, security",,OpenBSD Security implementation guide and best practices for cybersecurity.
+NetBSD Security,netbsd-security,Threat Intelligence,Threat Hunting,Wilson S,"netbsd, security",,NetBSD Security implementation guide and best practices for cybersecurity.
+Plan 9 Security,plan-9-security,Compliance & Governance,Policies,Wilson S,"plan, 9, security",,Plan 9 Security implementation guide and best practices for cybersecurity.
+Minix Security,minix-security,Endpoint Security,Protection,Wilson S,"minix, security",,Minix Security implementation guide and best practices for cybersecurity.
+Embedded Systems Security,embedded-systems-security,Security Operations,SOC,Wilson S,"embedded, systems, security",,Embedded Systems Security implementation guide and best practices for cybersecurity.
+Real-Time Systems Security,real-time-systems-security,Emerging Technologies,AI/ML,Wilson S,"real-time, systems, security",,Real-Time Systems Security implementation guide and best practices for cybersecurity.
+Safety-Critical Systems,safety-critical-systems,Cloud Security,GCP,Wilson S,"safety-critical, systems",,Safety-Critical Systems implementation guide and best practices for cybersecurity.
+Mission-Critical Systems,mission-critical-systems,Network Security,VPN,Wilson S,"mission-critical, systems",,Mission-Critical Systems implementation guide and best practices for cybersecurity.
+High-Availability Systems,high-availability-systems,Application Security,Web Security,Wilson S,"high-availability, systems",,High-Availability Systems implementation guide and best practices for cybersecurity.
+Fault-Tolerant Systems,fault-tolerant-systems,Data Protection,DLP,Wilson S,"fault-tolerant, systems",,Fault-Tolerant Systems implementation guide and best practices for cybersecurity.
+Distributed Systems Security,distributed-systems-security,Identity & Access,MFA,Wilson S,"distributed, systems, security",,Distributed Systems Security implementation guide and best practices for cybersecurity.
+Peer-to-Peer Security,peer-to-peer-security,Threat Intelligence,TTPs,Wilson S,"peer-to-peer, security",,Peer-to-Peer Security implementation guide and best practices for cybersecurity.
+Client-Server Security,client-server-security,Compliance & Governance,Frameworks,Wilson S,"client-server, security",,Client-Server Security implementation guide and best practices for cybersecurity.
+Three-Tier Security,three-tier-security,Endpoint Security,MDM,Wilson S,"three-tier, security",,Three-Tier Security implementation guide and best practices for cybersecurity.
+N-Tier Security,n-tier-security,Security Operations,Incident Response,Wilson S,"n-tier, security",,N-Tier Security implementation guide and best practices for cybersecurity.
+Service-Oriented Architecture Security,service-oriented-architecture-security,Emerging Technologies,Quantum,Wilson S,"service-oriented, architecture, security",,Service-Oriented Architecture Security implementation guide and best practices for cybersecurity.
+Event-Driven Architecture Security,event-driven-architecture-security,Cloud Security,AWS,Wilson S,"event-driven, architecture, security",,Event-Driven Architecture Security implementation guide and best practices for cybersecurity.
+Message-Driven Architecture Security,message-driven-architecture-security,Network Security,VPN,Wilson S,"message-driven, architecture, security",,Message-Driven Architecture Security implementation guide and best practices for cybersecurity.
+Data-Driven Architecture Security,data-driven-architecture-security,Application Security,Mobile,Wilson S,"data-driven, architecture, security",,Data-Driven Architecture Security implementation guide and best practices for cybersecurity.
+Domain-Driven Design Security,domain-driven-design-security,Data Protection,Backup,Wilson S,"domain-driven, design, security",,Domain-Driven Design Security implementation guide and best practices for cybersecurity.
+Hexagonal Architecture Security,hexagonal-architecture-security,Identity & Access,IAM,Wilson S,"hexagonal, architecture, security",,Hexagonal Architecture Security implementation guide and best practices for cybersecurity.
+Clean Architecture Security,clean-architecture-security,Threat Intelligence,Threat Hunting,Wilson S,"clean, architecture, security",,Clean Architecture Security implementation guide and best practices for cybersecurity.
+Onion Architecture Security,onion-architecture-security,Compliance & Governance,Policies,Wilson S,"onion, architecture, security",,Onion Architecture Security implementation guide and best practices for cybersecurity.
+Ports and Adapters Security,ports-and-adapters-security,Endpoint Security,Protection,Wilson S,"ports, and, adapters",,Ports and Adapters Security implementation guide and best practices for cybersecurity.
+CQRS Security,cqrs-security,Security Operations,SOC,Wilson S,"cqrs, security",,CQRS Security implementation guide and best practices for cybersecurity.
+Event Sourcing Security,event-sourcing-security,Emerging Technologies,AI/ML,Wilson S,"event, sourcing, security",,Event Sourcing Security implementation guide and best practices for cybersecurity.
+Saga Pattern Security,saga-pattern-security,Cloud Security,Serverless,Wilson S,"saga, pattern, security",,Saga Pattern Security implementation guide and best practices for cybersecurity.
+Circuit Breaker Security,circuit-breaker-security,Network Security,VPN,Wilson S,"circuit, breaker, security",,Circuit Breaker Security implementation guide and best practices for cybersecurity.
+Bulkhead Pattern Security,bulkhead-pattern-security,Application Security,Web Security,Wilson S,"bulkhead, pattern, security",,Bulkhead Pattern Security implementation guide and best practices for cybersecurity.
+Retry Pattern Security,retry-pattern-security,Data Protection,DLP,Wilson S,"retry, pattern, security",,Retry Pattern Security implementation guide and best practices for cybersecurity.
+Timeout Pattern Security,timeout-pattern-security,Identity & Access,MFA,Wilson S,"timeout, pattern, security",,Timeout Pattern Security implementation guide and best practices for cybersecurity.
+Fallback Pattern Security,fallback-pattern-security,Threat Intelligence,TTPs,Wilson S,"fallback, pattern, security",,Fallback Pattern Security implementation guide and best practices for cybersecurity.
+Cache-Aside Pattern Security,cache-aside-pattern-security,Compliance & Governance,Frameworks,Wilson S,"cache-aside, pattern, security",,Cache-Aside Pattern Security implementation guide and best practices for cybersecurity.
+Sidecar Pattern Security,sidecar-pattern-security,Endpoint Security,MDM,Wilson S,"sidecar, pattern, security",,Sidecar Pattern Security implementation guide and best practices for cybersecurity.
+Ambassador Pattern Security,ambassador-pattern-security,Security Operations,Incident Response,Wilson S,"ambassador, pattern, security",,Ambassador Pattern Security implementation guide and best practices for cybersecurity.
+Anti-Corruption Layer Security,anti-corruption-layer-security,Emerging Technologies,Quantum,Wilson S,"anti-corruption, layer, security",,Anti-Corruption Layer Security implementation guide and best practices for cybersecurity.
+Strangler Fig Pattern Security,strangler-fig-pattern-security,Cloud Security,GCP,Wilson S,"strangler, fig, pattern",,Strangler Fig Pattern Security implementation guide and best practices for cybersecurity.
+Backends for Frontends Security,backends-for-frontends-security,Network Security,VPN,Wilson S,"backends, for, frontends",,Backends for Frontends Security implementation guide and best practices for cybersecurity.
+API Composition Security,api-composition-security,Application Security,Mobile,Wilson S,"api, composition, security",,API Composition Security implementation guide and best practices for cybersecurity.
+API Gateway Pattern Security,api-gateway-pattern-security,Data Protection,Backup,Wilson S,"api, gateway, pattern",,API Gateway Pattern Security implementation guide and best practices for cybersecurity.
+Service Registry Security,service-registry-security,Identity & Access,IAM,Wilson S,"service, registry, security",,Service Registry Security implementation guide and best practices for cybersecurity.
+Service Discovery Security,service-discovery-security,Threat Intelligence,Threat Hunting,Wilson S,"service, discovery, security",,Service Discovery Security implementation guide and best practices for cybersecurity.
+Load Balancing Security,load-balancing-security,Compliance & Governance,Policies,Wilson S,"load, balancing, security",,Load Balancing Security implementation guide and best practices for cybersecurity.
+Health Check Security,health-check-security,Endpoint Security,Protection,Wilson S,"health, check, security",,Health Check Security implementation guide and best practices for cybersecurity.
+Distributed Tracing Security,distributed-tracing-security,Security Operations,SOC,Wilson S,"distributed, tracing, security",,Distributed Tracing Security implementation guide and best practices for cybersecurity.
+Centralized Logging Security,centralized-logging-security,Emerging Technologies,AI/ML,Wilson S,"centralized, logging, security",,Centralized Logging Security implementation guide and best practices for cybersecurity.
+Distributed Configuration Security,distributed-configuration-security,Cloud Security,AWS,Wilson S,"distributed, configuration, security",,Distributed Configuration Security implementation guide and best practices for cybersecurity.
+Feature Flags Security,feature-flags-security,Network Security,VPN,Wilson S,"feature, flags, security",,Feature Flags Security implementation guide and best practices for cybersecurity.
+A/B Testing Security,a-b-testing-security,Application Security,Web Security,Wilson S,"a/b, testing, security",,A/B Testing Security implementation guide and best practices for cybersecurity.
+Canary Deployment Security,canary-deployment-security,Data Protection,DLP,Wilson S,"canary, deployment, security",,Canary Deployment Security implementation guide and best practices for cybersecurity.
+Blue-Green Deployment Security,blue-green-deployment-security,Identity & Access,MFA,Wilson S,"blue-green, deployment, security",,Blue-Green Deployment Security implementation guide and best practices for cybersecurity.
+Rolling Deployment Security,rolling-deployment-security,Threat Intelligence,TTPs,Wilson S,"rolling, deployment, security",,Rolling Deployment Security implementation guide and best practices for cybersecurity.
+Shadow Deployment Security,shadow-deployment-security,Compliance & Governance,Frameworks,Wilson S,"shadow, deployment, security",,Shadow Deployment Security implementation guide and best practices for cybersecurity.
+Dark Launch Security,dark-launch-security,Endpoint Security,MDM,Wilson S,"dark, launch, security",,Dark Launch Security implementation guide and best practices for cybersecurity.
+Progressive Delivery Security,progressive-delivery-security,Security Operations,Incident Response,Wilson S,"progressive, delivery, security",,Progressive Delivery Security implementation guide and best practices for cybersecurity.
+GitOps Security,gitops-security,Emerging Technologies,Quantum,Wilson S,"gitops, security",,GitOps Security implementation guide and best practices for cybersecurity.
+Infrastructure as Code Security,infrastructure-as-code-security,Cloud Security,Serverless,Wilson S,"infrastructure, as, code",,Infrastructure as Code Security implementation guide and best practices for cybersecurity.
+Configuration as Code Security,configuration-as-code-security,Network Security,VPN,Wilson S,"configuration, as, code",,Configuration as Code Security implementation guide and best practices for cybersecurity.
+Policy as Code Security,policy-as-code-security,Application Security,Mobile,Wilson S,"policy, as, code",,Policy as Code Security implementation guide and best practices for cybersecurity.
+Compliance as Code Security,compliance-as-code-security,Data Protection,Backup,Wilson S,"compliance, as, code",,Compliance as Code Security implementation guide and best practices for cybersecurity.
+Security as Code,security-as-code,Identity & Access,IAM,Wilson S,"security, as, code",,Security as Code implementation guide and best practices for cybersecurity.
+Testing as Code,testing-as-code,Threat Intelligence,Threat Hunting,Wilson S,"testing, as, code",,Testing as Code implementation guide and best practices for cybersecurity.
+Documentation as Code,documentation-as-code,Compliance & Governance,Policies,Wilson S,"documentation, as, code",,Documentation as Code implementation guide and best practices for cybersecurity.
+Everything as Code Security,everything-as-code-security,Endpoint Security,Protection,Wilson S,"everything, as, code",,Everything as Code Security implementation guide and best practices for cybersecurity.
+Immutable Infrastructure Security,immutable-infrastructure-security,Security Operations,SOC,Wilson S,"immutable, infrastructure, security",,Immutable Infrastructure Security implementation guide and best practices for cybersecurity.
+Cattle vs Pets Security,cattle-versus-pets-security,Emerging Technologies,AI/ML,Wilson S,"cattle, vs, pets",,Cattle vs Pets Security implementation guide and best practices for cybersecurity.
+Phoenix Server Security,phoenix-server-security,Cloud Security,GCP,Wilson S,"phoenix, server, security",,Phoenix Server Security implementation guide and best practices for cybersecurity.
+Snowflake Server Security,snowflake-server-security,Network Security,VPN,Wilson S,"snowflake, server, security",,Snowflake Server Security implementation guide and best practices for cybersecurity.
+Serverless Architecture Security,serverless-architecture-security,Application Security,Web Security,Wilson S,"serverless, architecture, security",,Serverless Architecture Security implementation guide and best practices for cybersecurity.
+Lambda Architecture Security,lambda-architecture-security,Data Protection,DLP,Wilson S,"lambda, architecture, security",,Lambda Architecture Security implementation guide and best practices for cybersecurity.
+Kappa Architecture Security,kappa-architecture-security,Identity & Access,MFA,Wilson S,"kappa, architecture, security",,Kappa Architecture Security implementation guide and best practices for cybersecurity.
+Streaming Architecture Security,streaming-architecture-security,Threat Intelligence,TTPs,Wilson S,"streaming, architecture, security",,Streaming Architecture Security implementation guide and best practices for cybersecurity.
+Batch Processing Security,batch-processing-security,Compliance & Governance,Frameworks,Wilson S,"batch, processing, security",,Batch Processing Security implementation guide and best practices for cybersecurity.
+Stream Processing Security,stream-processing-security,Endpoint Security,MDM,Wilson S,"stream, processing, security",,Stream Processing Security implementation guide and best practices for cybersecurity.
+Real-Time Processing Security,real-time-processing-security,Security Operations,Incident Response,Wilson S,"real-time, processing, security",,Real-Time Processing Security implementation guide and best practices for cybersecurity.
+Near Real-Time Processing Security,near-real-time-processing-security,Emerging Technologies,Quantum,Wilson S,"near, real-time, processing",,Near Real-Time Processing Security implementation guide and best practices for cybersecurity.
+Offline Processing Security,offline-processing-security,Cloud Security,AWS,Wilson S,"offline, processing, security",,Offline Processing Security implementation guide and best practices for cybersecurity.
+Online Processing Security,online-processing-security,Network Security,VPN,Wilson S,"online, processing, security",,Online Processing Security implementation guide and best practices for cybersecurity.
+Edge Processing Security,edge-processing-security,Application Security,Mobile,Wilson S,"edge, processing, security",,Edge Processing Security implementation guide and best practices for cybersecurity.
+Fog Computing Security,fog-computing-security,Data Protection,Backup,Wilson S,"fog, computing, security",,Fog Computing Security implementation guide and best practices for cybersecurity.
+Mist Computing Security,mist-computing-security,Identity & Access,IAM,Wilson S,"mist, computing, security",,Mist Computing Security implementation guide and best practices for cybersecurity.
+Dew Computing Security,dew-computing-security,Threat Intelligence,Threat Hunting,Wilson S,"dew, computing, security",,Dew Computing Security implementation guide and best practices for cybersecurity.
+Mobile Edge Computing Security,mobile-edge-computing-security,Compliance & Governance,Policies,Wilson S,"mobile, edge, computing",,Mobile Edge Computing Security implementation guide and best practices for cybersecurity.
+Multi-Access Edge Computing Security,multi-access-edge-computing-security,Endpoint Security,Protection,Wilson S,"multi-access, edge, computing",,Multi-Access Edge Computing Security implementation guide and best practices for cybersecurity.
+Cloudlet Security,cloudlet-security,Security Operations,SOC,Wilson S,"cloudlet, security",,Cloudlet Security implementation guide and best practices for cybersecurity.
+Mobile Cloud Security,mobile-cloud-security,Emerging Technologies,AI/ML,Wilson S,"mobile, cloud, security",,Mobile Cloud Security implementation guide and best practices for cybersecurity.
+Hybrid Cloud Architecture Security,hybrid-cloud-architecture-security,Cloud Security,Serverless,Wilson S,"hybrid, cloud, architecture",,Hybrid Cloud Architecture Security implementation guide and best practices for cybersecurity.
+Multi-Cloud Architecture Security,multi-cloud-architecture-security,Network Security,VPN,Wilson S,"multi-cloud, architecture, security",,Multi-Cloud Architecture Security implementation guide and best practices for cybersecurity.
+Cloud-Native Architecture Security,cloud-native-architecture-security,Application Security,Web Security,Wilson S,"cloud-native, architecture, security",,Cloud-Native Architecture Security implementation guide and best practices for cybersecurity.
+Cloud-First Architecture Security,cloud-first-architecture-security,Data Protection,DLP,Wilson S,"cloud-first, architecture, security",,Cloud-First Architecture Security implementation guide and best practices for cybersecurity.
+Cloud-Only Architecture Security,cloud-only-architecture-security,Identity & Access,MFA,Wilson S,"cloud-only, architecture, security",,Cloud-Only Architecture Security implementation guide and best practices for cybersecurity.
+SaaS Architecture Security,saas-architecture-security,Threat Intelligence,TTPs,Wilson S,"saas, architecture, security",,SaaS Architecture Security implementation guide and best practices for cybersecurity.
+PaaS Architecture Security,paas-architecture-security,Compliance & Governance,Frameworks,Wilson S,"paas, architecture, security",,PaaS Architecture Security implementation guide and best practices for cybersecurity.
+IaaS Architecture Security,iaas-architecture-security,Endpoint Security,MDM,Wilson S,"iaas, architecture, security",,IaaS Architecture Security implementation guide and best practices for cybersecurity.
+FaaS Architecture Security,faas-architecture-security,Security Operations,Incident Response,Wilson S,"faas, architecture, security",,FaaS Architecture Security implementation guide and best practices for cybersecurity.
+BaaS Architecture Security,baas-architecture-security,Emerging Technologies,Quantum,Wilson S,"baas, architecture, security",,BaaS Architecture Security implementation guide and best practices for cybersecurity.
+DaaS Architecture Security,daas-architecture-security,Cloud Security,GCP,Wilson S,"daas, architecture, security",,DaaS Architecture Security implementation guide and best practices for cybersecurity.
+CaaS Architecture Security,caas-architecture-security,Network Security,VPN,Wilson S,"caas, architecture, security",,CaaS Architecture Security implementation guide and best practices for cybersecurity.
+XaaS Architecture Security,xaas-architecture-security,Application Security,Mobile,Wilson S,"xaas, architecture, security",,XaaS Architecture Security implementation guide and best practices for cybersecurity.
+Everything as a Service Security,everything-as-a-service-security,Data Protection,Backup,Wilson S,"everything, as, a",,Everything as a Service Security implementation guide and best practices for cybersecurity.
+Security Product Evaluation,security-product-evaluation,Identity & Access,IAM,Wilson S,"security, product, evaluation",,Security Product Evaluation implementation guide and best practices for cybersecurity.
+Security Vendor Selection,security-vendor-selection,Threat Intelligence,Threat Hunting,Wilson S,"security, vendor, selection",,Security Vendor Selection implementation guide and best practices for cybersecurity.
+Security Tool Selection,security-tool-selection,Compliance & Governance,Policies,Wilson S,"security, tool, selection",,Security Tool Selection implementation guide and best practices for cybersecurity.
+Security Platform Selection,security-platform-selection,Endpoint Security,Protection,Wilson S,"security, platform, selection",,Security Platform Selection implementation guide and best practices for cybersecurity.
+Security Service Selection,security-service-selection,Security Operations,SOC,Wilson S,"security, service, selection",,Security Service Selection implementation guide and best practices for cybersecurity.
+Security Solution Selection,security-solution-selection,Emerging Technologies,AI/ML,Wilson S,"security, solution, selection",,Security Solution Selection implementation guide and best practices for cybersecurity.
+Build vs Buy Decision,build-versus-buy-decision,Cloud Security,AWS,Wilson S,"build, vs, buy",,Build vs Buy Decision implementation guide and best practices for cybersecurity.
+In-House vs Outsource,in-house-versus-outsource,Network Security,VPN,Wilson S,"in-house, vs, outsource",,In-House vs Outsource implementation guide and best practices for cybersecurity.
+On-Premise vs Cloud,on-premise-versus-cloud,Application Security,Web Security,Wilson S,"on-premise, vs, cloud",,On-Premise vs Cloud implementation guide and best practices for cybersecurity.
+Managed vs Self-Managed,managed-versus-self-managed,Data Protection,DLP,Wilson S,"managed, vs, self-managed",,Managed vs Self-Managed implementation guide and best practices for cybersecurity.
+Open Source vs Commercial,open-source-versus-commercial,Identity & Access,MFA,Wilson S,"open, source, vs",,Open Source vs Commercial implementation guide and best practices for cybersecurity.
+Best of Breed vs Suite,best-of-breed-versus-suite,Threat Intelligence,TTPs,Wilson S,"best, of, breed",,Best of Breed vs Suite implementation guide and best practices for cybersecurity.
+Point Solution vs Platform,point-solution-versus-platform,Compliance & Governance,Frameworks,Wilson S,"point, solution, vs",,Point Solution vs Platform implementation guide and best practices for cybersecurity.
+Integrated vs Standalone,integrated-versus-standalone,Endpoint Security,MDM,Wilson S,"integrated, vs, standalone",,Integrated vs Standalone implementation guide and best practices for cybersecurity.
+Cloud-Native vs Cloud-Ready,cloud-native-versus-cloud-ready,Security Operations,Incident Response,Wilson S,"cloud-native, vs, cloud-ready",,Cloud-Native vs Cloud-Ready implementation guide and best practices for cybersecurity.
+Container-Native vs VM-Based,container-native-versus-vm-based,Emerging Technologies,Quantum,Wilson S,"container-native, vs, vm-based",,Container-Native vs VM-Based implementation guide and best practices for cybersecurity.
+Kubernetes-Native vs Docker-Based,kubernetes-native-versus-docker-based,Cloud Security,Serverless,Wilson S,"kubernetes-native, vs, docker-based",,Kubernetes-Native vs Docker-Based implementation guide and best practices for cybersecurity.
+Linux-Based vs Windows-Based,linux-based-versus-windows-based,Network Security,VPN,Wilson S,"linux-based, vs, windows-based",,Linux-Based vs Windows-Based implementation guide and best practices for cybersecurity.
+Hardware-Based vs Software-Based,hardware-based-versus-software-based,Application Security,Mobile,Wilson S,"hardware-based, vs, software-based",,Hardware-Based vs Software-Based implementation guide and best practices for cybersecurity.
+Appliance-Based vs Virtual,appliance-based-versus-virtual,Data Protection,Backup,Wilson S,"appliance-based, vs, virtual",,Appliance-Based vs Virtual implementation guide and best practices for cybersecurity.
+On-Box vs Off-Box,on-box-versus-off-box,Identity & Access,IAM,Wilson S,"on-box, vs, off-box",,On-Box vs Off-Box implementation guide and best practices for cybersecurity.
+Inline vs Out-of-Band,inline-versus-out-of-band,Threat Intelligence,Threat Hunting,Wilson S,"inline, vs, out-of-band",,Inline vs Out-of-Band implementation guide and best practices for cybersecurity.
+Active vs Passive,active-versus-passive,Compliance & Governance,Policies,Wilson S,"active, vs, passive",,Active vs Passive implementation guide and best practices for cybersecurity.
