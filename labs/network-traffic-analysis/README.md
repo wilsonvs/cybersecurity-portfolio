@@ -1,81 +1,49 @@
 # Network Traffic Analysis Lab
 
-## Executive Summary
+## What I Practiced
 
-This project demonstrates how I would review suspicious network activity using packet and flow-analysis concepts. It is designed for entry-level SOC and cybersecurity analyst roles where understanding DNS, HTTP, TLS, IP addresses, ports, and unusual connections is important.
+I practiced reviewing repeated outbound network connections and documenting what I would check before deciding whether the traffic is benign or suspicious.
+
+![Network Traffic Summary](../../assets/screenshots/network-traffic-summary.svg)
+
+## Evidence
+
+| Artifact | Purpose |
+| --- | --- |
+| [sample-zeek-conn.log](./sample-zeek-conn.log) | Sanitized Zeek-style connection log |
+| [network-analysis-notes.md](./network-analysis-notes.md) | My assessment and next checks |
+| [network-traffic-summary.svg](../../assets/screenshots/network-traffic-summary.svg) | Screenshot-style traffic summary |
 
 ## Scenario
 
-An endpoint generates repeated outbound connections to an unfamiliar external IP address. The analyst must review the traffic pattern, identify protocol behavior, determine whether the activity is expected, and recommend next steps.
-
-## Objectives
-
-- Identify source and destination systems.
-- Review protocol, port, frequency, and timing.
-- Determine whether the destination is expected or suspicious.
-- Document findings in analyst-friendly language.
-- Recommend containment or monitoring actions.
+An endpoint generates repeated outbound HTTPS connections to an unfamiliar external IP address. I reviewed source, destination, port, timing, and what additional context would be needed.
 
 ## Evidence Checklist
 
-| Evidence | Why It Matters |
+| Evidence | Why I Reviewed It |
 | --- | --- |
-| Source IP and hostname | Identifies affected asset |
-| Destination IP/domain | Identifies external system contacted |
-| Destination port | Helps infer service or protocol |
-| DNS query | Shows domain lookup behavior |
-| Frequency and volume | Helps identify beaconing or automated activity |
-| User/process context | Connects traffic to expected or suspicious behavior |
+| Source IP and hostname | Identifies the affected asset |
+| Destination IP/domain | Identifies what the host contacted |
+| Destination port | Helps infer protocol or service |
+| Frequency and timing | Helps identify periodic behavior |
+| DNS/proxy/EDR context | Helps separate benign updates from suspicious activity |
 | Threat intelligence result | Adds external reputation context |
 
-## Example Traffic Summary
+## My Assessment
 
-| Field | Example |
-| --- | --- |
-| Source Host | `workstation-01` |
-| Source IP | `10.0.0.50` |
-| Destination IP | `203.0.113.25` |
-| Destination Port | `443` |
-| Protocol | HTTPS/TLS |
-| Pattern | Repeated outbound connections every 5 minutes |
-| Initial Assessment | Requires review for possible beaconing or background application traffic |
+The repeated five-minute timing is worth reviewing, but I would not block the destination based only on timing. I would first identify the process, DNS query, proxy URL, and whether the destination is related to expected software.
 
-## Analysis Workflow
+## Recommended Next Steps
 
-1. Confirm whether the source host is a managed corporate asset.
-2. Identify the destination IP/domain and check whether it is business-approved.
-3. Review DNS logs for related domain names.
-4. Check connection frequency for periodic beaconing.
-5. Review endpoint process data if available.
-6. Search threat intelligence sources for reputation context.
-7. Determine whether to close, monitor, block, or escalate.
+1. Identify the endpoint process that created the connections.
+2. Review DNS logs for the destination domain.
+3. Check proxy/firewall logs for full URL and user-agent context.
+4. Search reputation sources for the IP/domain.
+5. Escalate if there is no business justification or if endpoint telemetry shows suspicious behavior.
 
-## Findings and Recommendations
+## What I Learned
 
-| Finding | Risk | Recommendation |
-| --- | --- | --- |
-| Repeated outbound connections | Medium | Validate process and destination reputation |
-| Unknown destination | Medium | Check DNS, proxy, firewall, and threat intel context |
-| No user/business justification | High | Isolate host or block destination if malicious indicators appear |
-
-## Example Analyst Summary
-
-The endpoint `workstation-01` generated repeated outbound HTTPS connections to an unfamiliar destination. The traffic pattern should be reviewed against DNS, proxy, firewall, and endpoint process logs. If the destination is not business-approved and no legitimate process explains the activity, the event should be escalated for endpoint investigation and possible containment.
-
-## Skills Demonstrated
-
-- Network traffic analysis
-- DNS and HTTP/TLS investigation concepts
-- SOC triage workflow
-- Threat intelligence enrichment
-- Risk-based escalation
-
-## Future Improvements
-
-- Add Wireshark screenshots from a sanitized packet capture.
-- Add Zeek-style connection log examples.
-- Add Suricata alert examples.
-- Add a network IOC investigation report.
+Network investigation is about context. Repetition can be suspicious, but process, DNS, proxy, and endpoint evidence are needed before making a confident decision.
 
 ## References
 
