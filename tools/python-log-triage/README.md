@@ -1,26 +1,19 @@
 # Python Log Triage Tool
 
-## Executive Summary
+## What I Built
 
-This project demonstrates a small analyst helper script for reviewing authentication event data. The script summarizes failed logins, successful logins, and users that may require follow-up.
+I built a small Python script that reads authentication events from a CSV file and summarizes failed logons, successful logons, and users that need review.
 
-## Problem Statement
+![Python Log Triage Output](../../assets/screenshots/python-log-triage-output.svg)
 
-SOC analysts often review repetitive log data. Small automation scripts can reduce manual review time and make triage more consistent.
+## Evidence
 
-## Objectives
-
-- Parse structured CSV event data.
-- Count failed and successful login events.
-- Identify users with repeated failures.
-- Produce simple analyst-friendly output.
-
-## Files
-
-| File | Purpose |
+| Artifact | Purpose |
 | --- | --- |
-| `log_triage.py` | Python script for CSV log triage |
-| `sample_events.csv` | Sanitized sample authentication events |
+| [log_triage.py](./log_triage.py) | Python script for CSV log triage |
+| [sample_events.csv](./sample_events.csv) | Sanitized authentication event data |
+| [output/sample-output.txt](./output/sample-output.txt) | Captured output from the sample run |
+| [python-log-triage-output.svg](../../assets/screenshots/python-log-triage-output.svg) | Screenshot-style output image |
 
 ## Usage
 
@@ -28,22 +21,35 @@ SOC analysts often review repetitive log data. Small automation scripts can redu
 python log_triage.py sample_events.csv
 ```
 
-## Expected Output
+## Sample Output
 
 ```text
 Authentication Summary
 Failed logons: 6
 Successful logons: 2
+
+Failed logons by user:
+- alice: 3
+- service_backup: 3
+
 Users requiring review: alice, service_backup
 ```
 
-## Analyst Value
+## Why I Made It
 
-This script shows how repetitive investigation steps can become repeatable tooling, which is useful for SOC analyst and security automation work.
+Manual log review can become repetitive. This script gives me a simple way to practice turning raw event rows into a short analyst summary.
 
-## Future Improvements
+## What I Practiced
 
-- Add JSON input support.
+- Reading structured CSV data with Python.
+- Counting failed and successful authentication events.
+- Grouping failures by user.
+- Producing readable investigation output.
+- Connecting script output to a SOC-style triage decision.
+
+## Improvements I Want To Add
+
 - Add source IP frequency analysis.
-- Add MITRE ATT&CK mapping in output.
-- Export Markdown incident notes automatically.
+- Detect failed logons followed by success automatically.
+- Export a Markdown incident note.
+- Add JSON input support.
