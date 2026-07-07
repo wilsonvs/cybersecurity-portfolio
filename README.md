@@ -1,56 +1,80 @@
 # Cybersecurity Portfolio
 
-Entry-level cybersecurity portfolio focused on SOC analysis, security monitoring, incident response, vulnerability management, Python automation, and practical blue-team documentation.
+A practical cybersecurity portfolio for entry-level SOC Analyst, Cybersecurity Analyst, Security Operations Analyst, Vulnerability Management Analyst, and GRC Analyst roles.
 
-## Professional Focus
+This repository includes hands-on blue-team projects covering SOC workflows, SIEM detection, Windows Event Log analysis, vulnerability assessment, Python security automation, incident response documentation, and governance, risk, and compliance artifacts.
 
-I am building hands-on cybersecurity work for roles such as SOC Analyst, Cybersecurity Analyst, Security Operations Analyst, Junior Security Engineer, and Vulnerability Management Analyst. This portfolio emphasizes practical investigation, clear documentation, repeatable workflows, and security recommendations that hiring teams can review quickly.
-
-## Featured Projects
+## Featured Cybersecurity Projects
 
 | Project | Focus | Hiring Signal |
 | --- | --- | --- |
-| [SOC Home Lab](./labs/soc-home-lab/README.md) | Alert triage, escalation notes, incident workflow | Shows how I think through security operations work |
+| [SOC Home Lab](./labs/soc-home-lab/README.md) | Alert triage, escalation notes, incident workflow | Shows practical SOC analyst workflow |
 | [Windows Event Log Analysis](./labs/windows-event-log-analysis/README.md) | Event ID review, suspicious login analysis, triage notes | Demonstrates endpoint investigation fundamentals |
 | [SIEM Detection Lab](./labs/siem-detection-lab/README.md) | Detection logic, SIEM queries, MITRE ATT&CK mapping | Shows detection engineering foundations |
-| [Vulnerability Assessment Report](./reports/vulnerability-assessment/README.md) | Risk rating, findings, remediation plan | Shows business-focused risk communication |
-| [Python Security Automation](./automation/python-security-automation/README.md) | Log parsing, IOC review, analyst helper scripts | Shows practical scripting for repeatable tasks |
-| [Security Policy and GRC Pack](./grc/security-policy-pack/README.md) | Policies, risk register, NIST/ISO-aligned language | Supports GRC and analyst roles |
+| [Windows Failed Logon Detection](./detections/windows/failed-logons-followed-by-successful-logon.md) | Failed login pattern detection and triage | Shows detection documentation and analyst reasoning |
+| [Vulnerability Assessment Report](./reports/vulnerability-assessment-report/README.md) | Risk rating, findings, remediation plan | Shows business-focused risk communication |
+| [Python Log Triage Tool](./tools/python-log-triage/README.md) | Log parsing, failed login review, analyst helper script | Shows practical Python security automation |
+| [Security Policy and Risk Register](./governance-risk-compliance/security-policy-and-risk-register/README.md) | Policies, risk register, NIST/ISO-aligned language | Supports GRC and security analyst roles |
 
-## Core Skill Areas
+## Repository Structure
+
+```text
+.
+├── .github/                         # Issue templates, PR template, GitHub Actions
+├── detections/                      # Detection engineering writeups
+│   └── windows/
+├── docs/                            # Portfolio roadmap and reusable templates
+│   └── templates/
+├── governance-risk-compliance/      # GRC artifacts, policies, risk register examples
+├── labs/                            # SOC, SIEM, and Windows analysis labs
+├── reports/                         # Security assessment reports
+├── tools/                           # Security automation scripts and sample data
+├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+└── SECURITY.md
+```
+
+## Skills Demonstrated
 
 | Area | Tools and Concepts |
 | --- | --- |
-| Security Monitoring | SIEM, alert triage, log analysis, incident notes |
-| Threat Detection | MITRE ATT&CK mapping, Sigma-style logic, IOC review |
-| Network Security | Wireshark, tcpdump, network traffic analysis, firewall concepts |
-| Endpoint and OS Security | Windows Event Logs, Linux hardening, PowerShell basics |
-| Vulnerability Management | Risk rating, remediation tracking, security recommendations |
-| Automation | Python, PowerShell, repeatable investigation workflows |
-| Governance and Risk | Security policies, NIST concepts, ISO 27001 awareness |
+| SOC Analysis | Alert triage, escalation notes, incident response workflow |
+| SIEM and Detection | SIEM queries, detection logic, false-positive analysis, MITRE ATT&CK |
+| Windows Security | Windows Event IDs, authentication review, privileged activity checks |
+| Vulnerability Management | Risk rating, remediation planning, executive summaries |
+| Security Automation | Python, CSV log parsing, repeatable investigation tasks |
+| GRC | Security policies, risk registers, NIST CSF, ISO 27001 awareness |
 
-## Current Public Work
+## Search Keywords
 
-- [Google Cybersecurity Professional Certificate](https://github.com/wilsonvs/Google-Cybersecurity): Certificate coursework, notes, and applied cybersecurity exercises.
-- [CompTIA Security+ SY0-701](https://github.com/wilsonvs/CompTIA-Security-SY0-701): Security+ study documentation and exam objective mapping.
+`cybersecurity portfolio` `SOC analyst` `SIEM` `incident response` `threat detection` `Windows Event Log analysis` `vulnerability management` `Python security automation` `GRC` `MITRE ATT&CK` `NIST CSF` `Security+`
 
-## Repository Standards
+## Supporting Repositories
 
-Each project includes:
+- [Google Cybersecurity Professional Certificate](https://github.com/wilsonvs/Google-Cybersecurity)
+- [CompTIA Security+ SY0-701](https://github.com/wilsonvs/CompTIA-Security-SY0-701)
+
+## Documentation Standards
+
+Each project is organized to include:
 
 - Executive summary
-- Technical summary
-- Business/security problem
-- Tools used
-- Investigation or implementation steps
+- Problem statement
+- Objectives
+- Tools and technologies
+- Workflow or architecture diagram
+- Evidence, sample output, or screenshots where available
 - Findings and recommendations
 - Lessons learned
 - References
 
+## Portfolio Roadmap
+
+See [Portfolio Audit and Roadmap](./docs/portfolio-audit-and-roadmap.md) for improvement priorities and hiring-focused positioning.
+
 ## Contact
 
 - GitHub: [wilsonvs](https://github.com/wilsonvs)
-
-## Portfolio Roadmap
-
-See [PORTFOLIO_AUDIT_AND_ROADMAP.md](./PORTFOLIO_AUDIT_AND_ROADMAP.md) for the full audit, cleanup recommendations, and 30-day hiring-focused roadmap.
