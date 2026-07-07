@@ -1,0 +1,12 @@
+From: Security Alert <security-alert@example-login-alert.com>
+Reply-To: support@example-login-alert.com
+To: user@example.com
+Subject: Account access will be disabled today
+Date: Tue, 07 Jul 2026 09:24:00 -0700
+Authentication-Results: example.com; spf=fail smtp.mailfrom=example-login-alert.com; dkim=none; dmarc=fail
+
+Your account access will be disabled today unless you verify your login immediately.
+
+Sign in here: https://example-login-alert.com/auth
+
+This is a lab sample. The domain is used only for controlled portfolio documentation.
