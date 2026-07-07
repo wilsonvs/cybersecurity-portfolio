@@ -1,0 +1,5 @@
+indicator,type,context,confidence,internal_search_target,recommended_action
+203.0.113.25,ip,External destination from lab network,Medium,Firewall and proxy logs,Review hits before blocking
+example-login-alert.com,domain,Suspicious login-themed domain,High,DNS email and proxy logs,Block if observed or delivered
+hxxps://example-login-alert.com/auth,url,Credential harvesting style URL,High,Email and web proxy logs,Defang document and block
+44d88612fea8a8f36de82e1278abb02f,hash,Sample suspicious file hash,Medium,EDR and file telemetry,Investigate host if matched
