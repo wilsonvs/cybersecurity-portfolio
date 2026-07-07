@@ -1,0 +1,6 @@
+risk_id,risk,asset_or_process,likelihood,impact,rating,owner,treatment,status
+R-001,Weak authentication controls,Identity and access management,Medium,High,High,IT Security,Enforce MFA and review password policy,Open
+R-002,Unpatched endpoints,Workstations and servers,High,High,Critical,IT Operations,Patch systems and verify compliance,In progress
+R-003,Incomplete asset inventory,Asset management,Medium,Medium,Medium,IT Security,Update inventory and assign owners,Open
+R-004,Limited log retention,SIEM and logging,Medium,High,High,Security Operations,Increase retention for critical systems,Planned
+R-005,No formal access review,Cloud IAM,Medium,High,High,Identity Team,Start quarterly access reviews,Open
