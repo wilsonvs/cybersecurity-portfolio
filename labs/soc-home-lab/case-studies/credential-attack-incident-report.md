@@ -1,12 +1,16 @@
 # SOC Case Study: Failed Logons Followed by Successful Authentication
 
-## Executive Summary
+## What I Investigated
 
-This case study documents a simulated SOC investigation of repeated failed Windows logons followed by a successful authentication. The scenario demonstrates how I would triage an alert, gather evidence, assess risk, map the behavior to MITRE ATT&CK, and communicate clear recommendations.
+I investigated a lab scenario where repeated Windows failed logons were followed by a successful authentication. I used the scenario to practice alert triage, evidence review, MITRE ATT&CK mapping, risk assessment, and response recommendations.
 
-## Business Context
+## Evidence Used
 
-A small organization receives an alert from its SIEM showing that a user account had multiple failed logon attempts followed by a successful logon from the same source IP. Because valid account access can lead to data exposure, lateral movement, or privilege escalation, the alert requires review.
+| Artifact | Purpose |
+| --- | --- |
+| [Windows sample events](../../windows-event-log-analysis/sample-windows-security-events.csv) | Authentication events used for the timeline |
+| [Windows timeline image](../../../assets/screenshots/windows-event-log-timeline.svg) | Visual summary of the event sequence |
+| [Python triage output](../../../tools/python-log-triage/output/sample-output.txt) | Authentication summary generated from sample data |
 
 ## Alert Summary
 
@@ -45,8 +49,6 @@ I would check whether `10.0.0.50` belongs to the user's normal workstation, VPN 
 
 ### 4. Review Logon Type
 
-Logon type helps explain the access method:
-
 | Logon Type | Meaning | Triage Value |
 | --- | --- | --- |
 | 2 | Interactive | Local keyboard/screen login |
@@ -67,7 +69,7 @@ I would search for:
 
 ### 6. Map to MITRE ATT&CK
 
-| Tactic | Technique | Why It Applies |
+| Tactic | Technique | Why I Mapped It |
 | --- | --- | --- |
 | Credential Access | Brute Force | Repeated failed logons may indicate password guessing |
 | Defense Evasion / Persistence | Valid Accounts | Successful logon may indicate valid credential use |
@@ -95,18 +97,9 @@ I would search for:
 
 This alert should not be closed only because the source IP is internal. Internal IPs can represent compromised endpoints, shared jump boxes, VPN sessions, or misconfigured services. The correct decision depends on identity context, source ownership, logon type, and post-login activity.
 
-## Lessons Learned
+## What I Learned
 
 - A clear timeline makes the investigation easier to communicate.
 - Failed logons followed by success are more important than failed logons alone.
 - False-positive review is part of good SOC work, not an afterthought.
 - The best incident notes include what happened, why it matters, what was checked, and what should happen next.
-
-## Skills Demonstrated
-
-- SOC alert triage
-- Windows Event Log analysis
-- Incident documentation
-- MITRE ATT&CK mapping
-- Risk-based escalation
-- Executive and technical communication
