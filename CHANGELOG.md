@@ -2,6 +2,16 @@
 
 ## 2026-07-07
 
+- Added recruiter alignment research document with CISA/NICE, CyberSeek, NIST, Microsoft, and MITRE references.
+- Added SOC credential attack incident report case study.
+- Added incident response report template.
+- Expanded Windows failed-logon detection with Splunk SPL, Microsoft Sentinel KQL, Sigma-style logic, triage workflow, severity guidance, and references.
+- Added phishing email analysis lab.
+- Added network traffic analysis lab.
+- Added cloud IAM risk review project.
+- Added IOC analysis report project.
+- Expanded root README to surface the complete recruiter-focused project set.
+- Expanded profile README with stronger project evidence and direct links.
 - Renamed repository from `cyber` to `cybersecurity-portfolio` for clearer cybersecurity portfolio positioning.
 - Reorganized support documents under `docs/`.
 - Reorganized detection content under `detections/windows/`.
