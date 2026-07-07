@@ -1,24 +1,20 @@
 # SIEM Detection Lab
 
-## Executive Summary
+## What I Practiced
 
-This project documents how a junior analyst can convert suspicious behavior into clear SIEM detection logic, triage notes, and MITRE ATT&CK mapping.
-
-## Problem Statement
-
-A useful detection must be understandable, testable, and actionable. This lab focuses on detection quality rather than tool-specific complexity.
-
-## Objectives
-
-- Define suspicious behavior.
-- Identify required log sources.
-- Write simple detection logic.
-- Map behavior to MITRE ATT&CK.
-- Document triage and false-positive notes.
+I practiced turning suspicious behavior into SIEM detection logic that is understandable, testable, and useful for triage.
 
 ## Detection Use Case
 
-Detect repeated failed authentication attempts followed by a successful login for the same account within a short time window.
+Repeated failed authentication attempts followed by a successful login for the same account and source IP within a short time window.
+
+## Evidence Used
+
+| Artifact | Purpose |
+| --- | --- |
+| [Windows sample events](../windows-event-log-analysis/sample-windows-security-events.csv) | Events used to model the detection |
+| [Python triage output](../../tools/python-log-triage/output/sample-output.txt) | Quick summary of authentication counts |
+| [Failed logon detection writeup](../../detections/windows/failed-logons-followed-by-successful-logon.md) | SPL, KQL, Sigma-style logic, and response notes |
 
 ## Required Fields
 
@@ -42,10 +38,10 @@ THEN create medium-severity alert
 
 ## MITRE ATT&CK Mapping
 
-| Tactic | Technique | Rationale |
+| Tactic | Technique | Why I Mapped It |
 | --- | --- | --- |
-| Credential Access | Brute Force | Multiple failed attempts may indicate guessing or spraying |
-| Defense Evasion / Persistence | Valid Accounts | A successful login may indicate valid credential use |
+| Credential Access | Brute Force | Multiple failures may indicate guessing or spraying |
+| Defense Evasion / Persistence | Valid Accounts | A successful login may indicate use of valid credentials |
 
 ## Triage Questions
 
@@ -55,22 +51,6 @@ THEN create medium-severity alert
 - Is MFA enabled for the account?
 - Are other users seeing similar failed logins from the same source?
 
-## False Positive Considerations
+## What I Learned
 
-- User mistyped password several times.
-- Stored credentials were stale on a device or service.
-- VPN or remote access generated repeated attempts.
-- Scheduled service account activity was expected.
-
-## Recommendations
-
-- Validate activity with the account owner.
-- Review MFA and conditional access status.
-- Check for related alerts from the same source IP.
-- Reset credentials if unauthorized activity is suspected.
-
-## Future Improvements
-
-- Add Splunk SPL, KQL, and Wazuh rule versions.
-- Add sample logs and expected alert output.
-- Add screenshots from a SIEM dashboard.
+Good detections need clear logic and clear limitations. I should document false positives and next checks so the alert can be investigated consistently.
