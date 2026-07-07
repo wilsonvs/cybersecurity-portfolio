@@ -1,0 +1,8 @@
+timestamp,event_id,user,source_ip,host,logon_type,result,notes
+2026-07-01T09:00:00Z,4625,alice,10.0.0.50,workstation-01,3,failed,failed network logon
+2026-07-01T09:01:00Z,4625,alice,10.0.0.50,workstation-01,3,failed,failed network logon
+2026-07-01T09:02:00Z,4625,alice,10.0.0.50,workstation-01,3,failed,failed network logon
+2026-07-01T09:03:00Z,4624,alice,10.0.0.50,workstation-01,3,success,successful network logon after failures
+2026-07-01T10:10:00Z,4625,service_backup,10.0.0.20,server-02,5,failed,possible stale service credential
+2026-07-01T10:11:00Z,4625,service_backup,10.0.0.20,server-02,5,failed,possible stale service credential
+2026-07-01T10:12:00Z,4625,service_backup,10.0.0.20,server-02,5,failed,possible stale service credential
