@@ -1,67 +1,51 @@
 # Portfolio Audit and Roadmap
 
-This roadmap supports entry-level cybersecurity hiring outcomes: SOC Analyst, Cybersecurity Analyst, Security Operations Analyst, Blue Team Analyst, GRC Analyst, Vulnerability Management Analyst, and Junior Security Engineer.
+This roadmap tracks how I am improving my cybersecurity portfolio as a learning record and proof-of-work archive.
 
-## Current Positioning
+## Current Direction
 
-The portfolio now uses a clearer repository name, `cybersecurity-portfolio`, and is organized around practical blue-team work instead of generic learning notes. The profile README, pinned repositories, and repository descriptions now reinforce the same cybersecurity keywords.
+The repository is organized around practical blue-team work instead of loose notes. I want every project to show evidence: sample logs, screenshots, commands, outputs, findings, recommendations, and lessons learned.
 
-## Core Portfolio Themes
+## Core Themes
 
-| Theme | Evidence |
+| Theme | Current Evidence |
 | --- | --- |
-| SOC analysis | SOC home lab, alert triage workflow, incident notes |
+| SOC analysis | SOC home lab, alert triage workflow, credential attack case study |
 | SIEM and detection | SIEM detection lab, Windows failed-logon detection writeup |
-| Endpoint investigation | Windows Event Log Analysis project |
+| Endpoint investigation | Windows Event Log Analysis project and sample events |
+| Phishing analysis | Sample email, triage checklist, investigation report |
+| Network analysis | Zeek-style connection log and traffic review notes |
 | Vulnerability management | Vulnerability assessment report and remediation plan |
-| Security automation | Python log triage script and sample event data |
-| GRC | Security policy pack, risk register, control mapping |
+| Security automation | Python log triage script, sample CSV data, output screenshot |
+| GRC | Security policy, risk register, and control mapping practice |
 
 ## Repository Strategy
 
-| Repository | Status | Purpose |
-| --- | --- | --- |
-| `cybersecurity-portfolio` | Primary portfolio | Hands-on cybersecurity labs, detections, reports, automation, and GRC artifacts |
-| `Google-Cybersecurity` | Supporting certificate evidence | Certificate coursework and applied learning notes |
-| `CompTIA-Security-SY0-701` | Supporting certification evidence | Security+ objective mapping and security fundamentals |
-| `wilsonvs` | Profile README | Recruiter-facing profile overview and featured projects |
-
-## SEO and GitHub Search Keywords
-
-Use these terms naturally in README files, repository descriptions, and project titles:
-
-- cybersecurity portfolio
-- SOC analyst
-- SIEM
-- incident response
-- threat detection
-- Windows Event Log analysis
-- vulnerability management
-- Python security automation
-- GRC
-- NIST CSF
-- MITRE ATT&CK
-- Security+
+| Repository | Purpose |
+| --- | --- |
+| `cybersecurity-portfolio` | Main hands-on cybersecurity labs, detections, reports, automation, and GRC artifacts |
+| `Google-Cybersecurity` | Course notes and applied learning from the Google Cybersecurity Professional Certificate |
+| `CompTIA-Security-SY0-701` | Security+ SY0-701 study notes and exam-objective mapping |
+| `wilsonvs` | GitHub profile README with a short overview of my learning focus |
 
 ## 30-Day Improvement Plan
 
 | Week | Priority | Outcome |
 | --- | --- | --- |
-| Week 1 | Finish portfolio cleanup | Keep only polished public repositories, maintain accurate profile README and pinned repos |
-| Week 2 | Add screenshots and sample logs | Make SOC, SIEM, and Windows log projects more visual and evidence-based |
-| Week 3 | Add query examples | Publish Splunk SPL, KQL, Wazuh, or Elastic examples for detections |
-| Week 4 | Add case-study reports | Convert labs into recruiter-friendly investigation summaries |
+| Week 1 | Rewrite public pages | First-person project notes that sound like my own work |
+| Week 2 | Add lab evidence | Screenshots, sample logs, command output, and investigation notes |
+| Week 3 | Add more detection formats | Splunk SPL, KQL, Sigma, Elastic, and Wazuh examples |
+| Week 4 | Add deeper case studies | More complete reports with timeline, findings, and lessons learned |
 
-## Quality Standard
+## Project Quality Checklist
 
 Each project should include:
 
-- Executive summary
-- Problem statement
-- Objectives
-- Tools and technologies
-- Workflow or architecture diagram
-- Evidence, sample output, or screenshots
+- What I investigated
+- Sample evidence or dataset
+- Tools or concepts used
+- Step-by-step workflow
+- Screenshot or output where useful
 - Findings and recommendations
-- Lessons learned
+- What I learned
 - References
