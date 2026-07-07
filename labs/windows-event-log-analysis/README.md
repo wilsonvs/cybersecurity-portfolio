@@ -1,57 +1,56 @@
 # Windows Event Log Analysis
 
-## Executive Summary
+## What I Practiced
 
-This project demonstrates beginner-friendly Windows Security Event Log analysis for suspicious authentication activity. It focuses on evidence collection, event interpretation, risk assessment, and analyst documentation.
+I practiced reviewing Windows Security authentication events and turning raw log rows into an investigation timeline. The lab focuses on Event ID `4625` failed logons and Event ID `4624` successful logons.
 
-## Problem Statement
+![Windows Event Log Timeline](../../assets/screenshots/windows-event-log-timeline.svg)
 
-Windows authentication logs are a core source for SOC investigations. Analysts must identify suspicious login patterns, understand event IDs, and explain whether activity appears benign, suspicious, or malicious.
+## Evidence
+
+| Artifact | Purpose |
+| --- | --- |
+| [sample-windows-security-events.csv](./sample-windows-security-events.csv) | Sanitized Windows authentication events used for the lab |
+| [investigation-notes.md](./investigation-notes.md) | My timeline, assessment, and next checks |
+| [windows-event-log-timeline.svg](../../assets/screenshots/windows-event-log-timeline.svg) | Screenshot-style summary of the investigation timeline |
 
 ## Objectives
 
 - Review common Windows Security Event IDs.
 - Identify suspicious login behavior.
-- Document findings using an analyst-friendly format.
-- Recommend practical response actions.
+- Build a clear timeline from sample events.
+- Explain what I would check next before deciding severity.
 
 ## Key Event IDs
 
-| Event ID | Meaning | Analyst Use |
+| Event ID | Meaning | How I Used It |
 | --- | --- | --- |
-| 4624 | Successful logon | Confirm access and logon type |
-| 4625 | Failed logon | Identify brute force, password spraying, or user error |
-| 4634 | Logoff | Track session end |
-| 4672 | Special privileges assigned | Review privileged account activity |
-| 4720 | User account created | Investigate unexpected account creation |
-| 4728 | Member added to privileged group | Review privilege escalation risk |
+| 4624 | Successful logon | Confirmed that access occurred after failures |
+| 4625 | Failed logon | Identified repeated failed authentication attempts |
+| 4672 | Special privileges assigned | A follow-up check if suspicious authentication succeeds |
+| 4720 | User account created | A follow-up check for unexpected account creation |
+| 4728 | Member added to privileged group | A follow-up check for privilege escalation |
 
 ## Investigation Workflow
 
-1. Filter events around the alert timestamp.
-2. Identify account name, source IP, workstation, and logon type.
-3. Compare failed and successful logon patterns.
-4. Check whether privileged activity followed authentication.
-5. Determine whether activity aligns with expected user behavior.
-6. Document findings and response recommendations.
+1. I filtered events around the alert timestamp.
+2. I grouped activity by user, source IP, host, and event ID.
+3. I compared failed and successful logon patterns.
+4. I checked whether the same source produced repeated failures.
+5. I identified what context would be needed next: source ownership, MFA, logon type, and privileged activity.
+6. I documented the timeline and my assessment.
 
-## Sample Scenario
+## Findings
 
-A workstation records multiple `4625` failed logons for one user followed by a `4624` successful logon from the same source. The analyst should validate whether the user was active, confirm the source device, and review whether privileged events occurred after login.
-
-## Findings and Recommendations
-
-| Finding | Risk | Recommendation |
+| Finding | Assessment | Next Step |
 | --- | --- | --- |
-| Multiple failed logons | Medium | Validate user activity and review source host |
-| Successful login after failures | Medium | Confirm whether login was expected |
-| Privileged event after login | High | Escalate for account review and possible containment |
+| `alice` had three failures followed by a success | Medium concern in this lab | Validate whether source host is expected |
+| `service_backup` had repeated failures | Could be stale credential or guessing | Check service ownership and recent password changes |
+| No privileged event is included in sample data | Severity stays medium unless more evidence appears | Search for Event ID 4672 and group changes |
 
-## Lessons Learned
+## What I Learned
 
-- Authentication context is essential: account, host, IP, time, and logon type all matter.
-- A single failed login is often low risk, but repeated failures followed by success deserves review.
-- Privileged activity after suspicious authentication increases severity.
+A failed logon is not enough by itself. The useful signal comes from the pattern: repeated failures, a successful login, source context, logon type, and what happened after access was granted.
 
 ## References
 
