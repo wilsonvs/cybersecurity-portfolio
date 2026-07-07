@@ -1,0 +1,13 @@
+$ python log_triage.py sample_events.csv
+Authentication Summary
+Failed logons: 6
+Successful logons: 2
+
+Failed logons by user:
+- alice: 3
+- service_backup: 3
+
+Users requiring review: alice, service_backup
+
+[MEDIUM] alice had repeated failures followed by a success from 10.0.0.50
+[MEDIUM] service_backup had repeated failures from 10.0.0.20
