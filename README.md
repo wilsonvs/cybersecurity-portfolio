@@ -1,8 +1,23 @@
 # Cybersecurity Portfolio
 
-This repository is my hands-on cybersecurity learning portfolio. I use it to document what I practiced, what evidence I collected, what I observed, and how I would explain investigation steps clearly.
+**Hands-on cybersecurity portfolio by Wilson Vijay Sequeira**
 
-My background includes 8+ years of IT experience, current IT Manager work, (ISC)² Certified in Cybersecurity (CC), and ongoing Security+ SY0-701 preparation. The projects here connect that IT foundation with practical blue-team work: SOC triage, SIEM detection logic, Windows Event Log analysis, phishing analysis, network traffic review, IOC handling, vulnerability assessment, Python automation, cloud IAM review, and GRC documentation.
+I am an aspiring Cybersecurity Analyst with 10+ years of IT experience across system administration, network management, technical support, and IT operations. This portfolio shows how I am applying that background to security operations: SOC triage, SIEM detection, Windows log analysis, phishing investigation, network traffic review, threat intelligence, vulnerability management, Python automation, cloud IAM, and GRC documentation.
+
+## Why This Portfolio Exists
+
+Security operations is built on fundamentals I have already worked with in IT: system hardening, access control, log monitoring, troubleshooting, documentation, escalation, and incident handling. These projects convert that experience into cybersecurity evidence with sample logs, screenshots, scripts, detection logic, risk registers, and investigation notes.
+
+## Recruiter Quick Scan
+
+| Signal | Evidence |
+| --- | --- |
+| 10+ years IT foundation | IT Administrator, System Administrator, IT Support Specialist experience |
+| Security operations focus | SOC triage, SIEM detection, incident response, threat intelligence labs |
+| Real infrastructure background | Windows/Linux administration, network management, access control, troubleshooting |
+| Security credentials | ISC2 CC, Google Cybersecurity, SOC Bootcamp, Security+ in progress |
+| Hands-on proof | Sample logs, screenshots, Python script, SPL/KQL, IOC tables, risk register |
+| Current threat awareness | Research and writing on Oracle EBS zero-day, Cl0p, ShinyHunters, ransomware, cloud security |
 
 ## Featured Projects
 
@@ -21,48 +36,37 @@ My background includes 8+ years of IT experience, current IT Manager work, (ISC)
 | [Python Log Triage Tool](./tools/python-log-triage/README.md) | CSV parsing and repeatable authentication review | [Script](./tools/python-log-triage/log_triage.py), [sample output](./tools/python-log-triage/output/sample-output.txt), [output image](./assets/screenshots/python-log-triage-output.svg) |
 | [Security Policy and Risk Register](./governance-risk-compliance/security-policy-and-risk-register/README.md) | Policy writing, risk tracking, control mapping | [Policy draft](./governance-risk-compliance/security-policy-and-risk-register/security-policy-draft.md), [risk register](./governance-risk-compliance/security-policy-and-risk-register/risk-register.csv) |
 
-## How I Document Each Project
+## Career Snapshot
 
-For each lab, I try to show:
+| Role | Organization | Period | Security-Relevant Work |
+| --- | --- | --- | --- |
+| IT Administrator | RainCity Property Maintenance | Dec 2022 - Present | IT operations, support, systems, users, troubleshooting |
+| System Administrator | Worldwide Cloud Solutions | Oct 2017 - Nov 2022 | Windows/Linux administration, hardening, access control, logs, incident processes |
+| IT Support Specialist | United Planets Enterprises | May 2013 - Sep 2017 | Technical support, systems, users, endpoint and network troubleshooting |
+| Jr Assistant / Application Support | Earlier roles | 2010 - 2012 | Business systems, support, operations exposure |
 
-1. What I was investigating.
-2. What data or sample evidence I used.
-3. What steps I followed.
-4. What I found.
-5. What I would recommend next.
-6. What I learned from the exercise.
-
-## Repository Structure
-
-```text
-.
-|-- .github/                         # Issue templates, PR template, GitHub Actions
-|-- assets/screenshots/              # Lab screenshots and evidence images
-|-- cloud-security/                  # Cloud IAM and access review projects
-|-- detections/windows/              # Detection engineering writeups
-|-- docs/                            # Learning roadmap and reusable notes
-|-- governance-risk-compliance/      # Policies, risk register, GRC practice
-|-- labs/                            # SOC, SIEM, phishing, network, and Windows labs
-|-- reports/                         # Security assessment reports
-|-- templates/                       # Incident response templates
-|-- threat-intelligence/             # IOC analysis and enrichment practice
-|-- tools/                           # Security automation scripts and sample data
-`-- README.md
-```
-
-## Skills Practiced
+## Core Skills
 
 | Area | Practice |
 | --- | --- |
-| SOC Analysis | Alert triage, evidence review, escalation notes |
-| SIEM and Detection | SPL, KQL, Sigma-style logic, tuning notes, MITRE ATT&CK |
+| Security Operations | SOC monitoring, alert triage, escalation notes, incident response thinking |
+| SIEM and Detection | SPL, KQL, Sigma-style logic, false-positive analysis, MITRE ATT&CK |
 | Windows Security | Event IDs 4624/4625, authentication timelines, privileged activity checks |
 | Phishing Analysis | Sender review, header review, URL defanging, containment actions |
-| Network Security | DNS, HTTP/TLS, traffic patterns, beaconing-style review |
-| Vulnerability Management | Risk rating, remediation planning, clear summaries |
+| Network Security | DNS, HTTP/TLS, Zeek-style traffic patterns, suspicious outbound review |
+| Vulnerability Management | Risk rating, remediation planning, ownership, status tracking |
 | Security Automation | Python, CSV parsing, repeatable investigation output |
-| Cloud Security | IAM review, MFA, least privilege, inactive account risk |
-| GRC | Security policies, risk registers, NIST/ISO-aligned thinking |
+| Cloud Security | AWS, Google Cloud, Azure security fundamentals, IAM review |
+| GRC | Security policies, risk registers, NIST CSF-style control mapping |
+
+## Credentials
+
+- ISC2 Certified in Cybersecurity (CC), 2025
+- SOC Bootcamp, Thinkcloudly, 2026
+- Google Foundations of Cybersecurity, 2024
+- Google IT Support
+- Cloud Computing, NPTEL - IIT Kharagpur, 2019
+- CompTIA Security+ SY0-701, in progress
 
 ## Supporting Repositories
 
@@ -71,9 +75,10 @@ For each lab, I try to show:
 
 ## Notes on Evidence
 
-The sample logs and screenshots in this repository are lab artifacts. I use sanitized, fictional usernames, hosts, IP addresses reserved for documentation, and controlled examples so I can practice investigation and documentation without exposing real private data.
+The sample logs and screenshots in this repository are lab artifacts. I use sanitized, fictional usernames, hosts, IP addresses reserved for documentation, and controlled examples so I can practice investigation and documentation without exposing private data.
 
-## Links
+## Contact
 
-- GitHub: [wilsonvs](https://github.com/wilsonvs)
+- Email: [wilsonvijaysequeira@gmail.com](mailto:wilsonvijaysequeira@gmail.com)
 - LinkedIn: [wilsonvsequeira](https://www.linkedin.com/in/wilsonvsequeira)
+- GitHub: [wilsonvs](https://github.com/wilsonvs)
