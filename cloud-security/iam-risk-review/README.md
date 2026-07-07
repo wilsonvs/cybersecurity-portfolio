@@ -2,11 +2,11 @@
 
 ## Executive Summary
 
-This project demonstrates a beginner-friendly cloud identity and access management review. It focuses on risks that entry-level cybersecurity analysts and GRC analysts are expected to understand: excessive permissions, missing MFA, inactive accounts, shared credentials, and weak access review processes.
+I practiced a cloud identity and access management review focused on risks that commonly affect real environments: excessive permissions, missing MFA, inactive accounts, shared credentials, and weak access review processes.
 
 ## Scenario
 
-A small organization wants to improve cloud account security. The analyst reviews identity settings and prepares a risk-based summary for IT leadership.
+A small organization wants to improve cloud account security. I reviewed identity settings and prepared a risk-based summary for IT leadership.
 
 ## Objectives
 
@@ -62,16 +62,16 @@ A small organization wants to improve cloud account security. The analyst review
 | Account lifecycle management | Disabled inactive accounts list |
 | Auditability | Access review signoff and risk register update |
 
-## Skills Demonstrated
+## What I Practiced
 
 - IAM risk review
 - Least privilege analysis
 - GRC documentation
 - Risk register writing
 - Cloud security fundamentals
-- Executive summary communication
+- Clear risk communication
 
-## Future Improvements
+## Improvements I Want To Add
 
 - Add Azure Entra ID sample review checklist.
 - Add AWS IAM user and role review examples.
