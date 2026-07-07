@@ -3,7 +3,7 @@
 
 import csv
 import sys
-from collections import Counter
+from collections import Counter, defaultdict
 
 FAILED_EVENT_ID = "4625"
 SUCCESS_EVENT_ID = "4624"
@@ -23,6 +23,25 @@ def summarize(events):
     return failed, successful, failed_by_user, review_users
 
 
+def build_review_notes(events, review_users):
+    events_by_user = defaultdict(list)
+    for event in events:
+        events_by_user[event.get("user", "unknown")].append(event)
+
+    notes = []
+    for user in review_users:
+        user_events = events_by_user[user]
+        sources = sorted({event.get("source_ip", "unknown") for event in user_events})
+        has_success = any(event.get("event_id") == SUCCESS_EVENT_ID for event in user_events)
+        if has_success:
+            notes.append(
+                f"[MEDIUM] {user} had repeated failures followed by a success from {', '.join(sources)}"
+            )
+        else:
+            notes.append(f"[MEDIUM] {user} had repeated failures from {', '.join(sources)}")
+    return notes
+
+
 def main():
     if len(sys.argv) != 2:
         print("Usage: python log_triage.py sample_events.csv")
@@ -40,6 +59,9 @@ def main():
 
     if review_users:
         print(f"\nUsers requiring review: {', '.join(review_users)}")
+        print()
+        for note in build_review_notes(events, review_users):
+            print(note)
     else:
         print("\nUsers requiring review: none")
 
