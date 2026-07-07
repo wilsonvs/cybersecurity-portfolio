@@ -1,20 +1,8 @@
 # SOC Home Lab
 
-## Executive Summary
+## What I Practiced
 
-This project documents a practical SOC analyst workflow for monitoring, triaging, and escalating suspicious activity in a lab environment. The purpose is to demonstrate how alerts are reviewed, mapped to risk, documented, and communicated.
-
-## Problem Statement
-
-Entry-level SOC analysts need to understand how logs become alerts, how alerts become investigations, and how investigations become clear recommendations. This lab provides a structured workflow for that process.
-
-## Objectives
-
-- Define a simple security monitoring workflow.
-- Document alert triage steps.
-- Map suspicious activity to MITRE ATT&CK tactics and techniques.
-- Produce an incident note that is clear enough for handoff.
-- Identify false-positive considerations and next actions.
+I practiced a basic SOC workflow: receive an alert, review the available evidence, decide what additional context is needed, document the investigation, and recommend next steps.
 
 ## Lab Architecture
 
@@ -24,59 +12,45 @@ flowchart LR
     B --> C[SIEM or Log Review]
     C --> D[Alert Triage]
     D --> E{Suspicious?}
-    E -->|No| F[Close as benign with notes]
-    E -->|Yes| G[Escalate Incident]
-    G --> H[Containment and Remediation Recommendations]
+    E -->|No| F[Close with notes]
+    E -->|Yes| G[Escalate]
+    G --> H[Containment or remediation recommendation]
 ```
 
-## Tools and Concepts
+## Evidence Used
 
-| Category | Examples |
+| Artifact | Purpose |
 | --- | --- |
-| SIEM concepts | Alert queues, dashboards, search queries |
-| Endpoint logs | Windows Security logs, Linux auth logs |
-| Threat mapping | MITRE ATT&CK initial access, credential access, discovery |
-| Documentation | Incident notes, executive summary, technical summary |
+| [Credential attack case study](./case-studies/credential-attack-incident-report.md) | Full investigation writeup |
+| [Windows sample events](../windows-event-log-analysis/sample-windows-security-events.csv) | Authentication timeline evidence |
+| [Windows timeline image](../../assets/screenshots/windows-event-log-timeline.svg) | Visual timeline of the alert |
+| [Python tool output](../../tools/python-log-triage/output/sample-output.txt) | Script output from sample authentication events |
 
-## Analyst Workflow
+## My Workflow
 
-1. Review alert title, severity, source, destination, and timestamp.
-2. Identify the affected user, host, and asset criticality.
-3. Gather related logs before and after the alert time.
-4. Check for failed logins, unusual process activity, or suspicious network connections.
-5. Map observed behavior to a likely tactic or technique.
-6. Decide whether to close, monitor, or escalate.
-7. Document findings and recommended response steps.
+1. I reviewed the alert name, severity, source, destination, user, and timestamp.
+2. I identified the affected user, host, and source IP.
+3. I gathered related events before and after the alert time.
+4. I checked for failed logins followed by successful authentication.
+5. I mapped the behavior to likely MITRE ATT&CK techniques.
+6. I decided what I would validate next before containment.
+7. I documented findings in a clear handoff format.
 
-## Sample Incident Note
+## Sample Alert Note
 
-| Field | Example |
+| Field | Value |
 | --- | --- |
-| Alert | Multiple failed logins followed by successful authentication |
-| Severity | Medium |
-| Affected Asset | Workstation or server under investigation |
-| Evidence | Failed login pattern, successful login, unusual source IP |
-| MITRE ATT&CK | Credential Access / Valid Accounts |
-| Recommendation | Validate user activity, reset password if unauthorized, review MFA status |
+| Alert | Multiple failed logons followed by successful authentication |
+| Severity | Medium in this lab |
+| Affected user | `alice` |
+| Source IP | `10.0.0.50` |
+| Destination host | `workstation-01` |
+| Evidence | Three failed logons followed by one successful logon |
+| Recommendation | Validate source host ownership, check MFA, review privileged events |
 
-## Findings
+## What I Learned
 
-- Repeated failed logins can indicate password guessing, stale credentials, or user error.
-- Successful authentication after failed attempts should be reviewed with user and source context.
-- Escalation quality improves when notes include timestamps, hosts, users, evidence, and reasoning.
-
-## Lessons Learned
-
-- Alert severity alone is not enough; context determines risk.
-- Clear notes matter as much as technical investigation.
-- A repeatable workflow reduces missed evidence during triage.
-
-## Future Improvements
-
-- Add screenshots from a SIEM dashboard.
-- Add sample Windows and Linux logs.
-- Add detection queries for Splunk, Wazuh, and Microsoft Sentinel.
-- Add a complete incident report template.
+Alert severity alone is not enough. I need context: user behavior, source ownership, logon type, follow-on activity, and whether the same source targeted other accounts.
 
 ## References
 
