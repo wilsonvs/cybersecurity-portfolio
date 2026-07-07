@@ -1,23 +1,29 @@
 # Detection: Failed Logons Followed by Successful Logon
 
-## Executive Summary
+## What I Built
 
-This detection identifies repeated failed Windows authentication attempts followed by a successful logon for the same user and source IP. In a SOC environment, this pattern is important because it may represent password guessing, password spraying, stale saved credentials, or unauthorized access using valid credentials.
+I wrote detection logic for repeated Windows failed logons followed by a successful logon from the same user and source IP. This pattern can point to password guessing, password spraying, stale saved credentials, or unauthorized access using valid credentials.
 
-This writeup shows how I would document a detection as a junior SOC analyst: define the behavior, identify required logs, write SIEM logic, map the activity to MITRE ATT&CK, explain false positives, and provide response recommendations.
+## Evidence Used
+
+| Artifact | Purpose |
+| --- | --- |
+| [Windows sample events](../../labs/windows-event-log-analysis/sample-windows-security-events.csv) | Event data used to model the scenario |
+| [Python triage output](../../tools/python-log-triage/output/sample-output.txt) | Authentication summary used to confirm repeated failures |
+| [Credential attack case study](../../labs/soc-home-lab/case-studies/credential-attack-incident-report.md) | Investigation writeup connected to this detection |
 
 ## Scenario
 
-A user account generates several Windows Security Event ID `4625` failures from one source IP. Minutes later, the same account records Event ID `4624`, indicating a successful logon. The goal is to determine whether this was normal user behavior, a misconfigured service, or possible credential compromise.
+A user account generates several Windows Security Event ID `4625` failures from one source IP. Minutes later, the same account records Event ID `4624`, indicating a successful logon. I used this scenario to practice detection writing, triage questions, false-positive review, and response notes.
 
 ## Data Sources
 
-| Source | Event | Why It Matters |
+| Source | Event | Why I Need It |
 | --- | --- | --- |
-| Windows Security Event Log | `4625` failed logon | Shows failed authentication attempts and failure reason |
+| Windows Security Event Log | `4625` failed logon | Captures failed authentication attempts and failure reason |
 | Windows Security Event Log | `4624` successful logon | Confirms access occurred after failures |
 | Identity provider logs | MFA and conditional access | Confirms whether strong authentication protected the account |
-| Endpoint telemetry | Process/network activity after logon | Shows whether suspicious activity followed access |
+| Endpoint telemetry | Process/network activity after logon | Helps check what happened after access was granted |
 
 ## Required Fields
 
@@ -98,7 +104,7 @@ level: medium
 
 ## MITRE ATT&CK Mapping
 
-| Tactic | Technique | Rationale |
+| Tactic | Technique | Why I Mapped It |
 | --- | --- | --- |
 | Credential Access | Brute Force | Multiple failed logons may indicate guessing or password spraying |
 | Defense Evasion / Persistence | Valid Accounts | A successful login may indicate use of valid credentials |
@@ -141,7 +147,7 @@ level: medium
 - Block the source IP if confirmed malicious and appropriate.
 - Escalate if privileged activity or lateral movement indicators are present.
 
-## What This Demonstrates
+## What I Practiced
 
 - Windows Event Log analysis
 - SIEM detection logic
