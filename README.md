@@ -1,8 +1,8 @@
 # Cybersecurity Portfolio
 
-This repository is my hands-on cybersecurity learning portfolio. I use it to document what I have practiced, what evidence I collected, what I observed, and how I would explain my investigation steps clearly.
+This repository is my hands-on cybersecurity learning portfolio. I use it to document what I practiced, what evidence I collected, what I observed, and how I would explain investigation steps clearly.
 
-The projects focus on blue-team fundamentals: SOC triage, SIEM detection logic, Windows Event Log analysis, phishing analysis, network traffic review, IOC handling, vulnerability assessment, Python automation, cloud IAM review, and GRC documentation.
+My background includes 8+ years of IT experience, current IT Manager work, (ISC)² Certified in Cybersecurity (CC), and ongoing Security+ SY0-701 preparation. The projects here connect that IT foundation with practical blue-team work: SOC triage, SIEM detection logic, Windows Event Log analysis, phishing analysis, network traffic review, IOC handling, vulnerability assessment, Python automation, cloud IAM review, and GRC documentation.
 
 ## Featured Projects
 
@@ -15,11 +15,11 @@ The projects focus on blue-team fundamentals: SOC triage, SIEM detection logic, 
 | [Windows Failed Logon Detection](./detections/windows/failed-logons-followed-by-successful-logon.md) | Detection writing and false-positive review | SPL, KQL, Sigma-style logic |
 | [Phishing Email Analysis](./labs/phishing-email-analysis/README.md) | Sender review, URL defanging, user impact assessment | [Sample email](./labs/phishing-email-analysis/sample-email.eml), [triage image](./assets/screenshots/phishing-email-triage.svg) |
 | [Network Traffic Analysis](./labs/network-traffic-analysis/README.md) | DNS, HTTPS, repeated outbound connection review | [Zeek-style log](./labs/network-traffic-analysis/sample-zeek-conn.log), [traffic image](./assets/screenshots/network-traffic-summary.svg) |
-| [IOC Analysis Report](./threat-intelligence/ioc-analysis-report/README.md) | Indicator organization, enrichment, and log search planning | IOC table and internal search plan |
+| [IOC Analysis Report](./threat-intelligence/ioc-analysis-report/README.md) | Indicator organization, enrichment, and log search planning | [IOC table](./threat-intelligence/ioc-analysis-report/indicators.csv), internal search plan |
 | [Cloud IAM Risk Review](./cloud-security/iam-risk-review/README.md) | MFA, least privilege, inactive account review | IAM risk review writeup |
-| [Vulnerability Assessment Report](./reports/vulnerability-assessment-report/README.md) | Risk rating, remediation planning, business impact | Findings table and remediation plan |
+| [Vulnerability Assessment Report](./reports/vulnerability-assessment-report/README.md) | Risk rating, remediation planning, business impact | [Findings CSV](./reports/vulnerability-assessment-report/vulnerability-findings.csv), remediation plan |
 | [Python Log Triage Tool](./tools/python-log-triage/README.md) | CSV parsing and repeatable authentication review | [Script](./tools/python-log-triage/log_triage.py), [sample output](./tools/python-log-triage/output/sample-output.txt), [output image](./assets/screenshots/python-log-triage-output.svg) |
-| [Security Policy and Risk Register](./governance-risk-compliance/security-policy-and-risk-register/README.md) | Policy thinking, risk register structure, control language | GRC artifact |
+| [Security Policy and Risk Register](./governance-risk-compliance/security-policy-and-risk-register/README.md) | Policy writing, risk tracking, control mapping | [Policy draft](./governance-risk-compliance/security-policy-and-risk-register/security-policy-draft.md), [risk register](./governance-risk-compliance/security-policy-and-risk-register/risk-register.csv) |
 
 ## How I Document Each Project
 
@@ -73,6 +73,7 @@ For each lab, I try to show:
 
 The sample logs and screenshots in this repository are lab artifacts. I use sanitized, fictional usernames, hosts, IP addresses reserved for documentation, and controlled examples so I can practice investigation and documentation without exposing real private data.
 
-## Contact
+## Links
 
 - GitHub: [wilsonvs](https://github.com/wilsonvs)
+- LinkedIn: [wilsonvsequeira](https://www.linkedin.com/in/wilsonvsequeira)
