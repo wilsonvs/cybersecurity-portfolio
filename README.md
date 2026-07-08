@@ -19,6 +19,34 @@ Security operations is built on fundamentals I have already worked with in IT: s
 | Hands-on proof | Sample logs, screenshots, Python script, SPL/KQL, IOC tables, risk register |
 | Current threat awareness | Research and writing on Oracle EBS zero-day, Cl0p, ShinyHunters, ransomware, cloud security |
 
+## Open These First
+
+| Priority | Project | Why |
+| --- | --- | --- |
+| 1 | [Windows Failed Logon Detection](./detections/windows/failed-logons-followed-by-successful-logon.md) | Shows detection logic, SPL/KQL, MITRE mapping, false-positive review, and response notes |
+| 2 | [SOC Credential Attack Case Study](./labs/soc-home-lab/case-studies/credential-attack-incident-report.md) | Shows alert triage, evidence timeline, findings, and recommendations |
+| 3 | [Python Log Triage Tool](./tools/python-log-triage/README.md) | Shows simple automation using Python and sample authentication logs |
+| 4 | [Phishing Email Analysis](./labs/phishing-email-analysis/README.md) | Shows email triage, header review, URL defanging, and containment thinking |
+| 5 | [Security Policy and Risk Register](./governance-risk-compliance/security-policy-and-risk-register/README.md) | Shows GRC artifacts: policy draft, risk register, and control mapping |
+
+## Role Evidence Map
+
+| Target Role Need | Evidence In This Repository |
+| --- | --- |
+| SOC alert triage | SOC Home Lab, Credential Attack Case Study |
+| Windows log analysis | Windows Event Log Analysis, Failed Logon Detection |
+| SIEM detection | SPL, KQL, Sigma-style failed-logon detection |
+| Incident response | Incident report template, timeline, escalation notes |
+| Threat intelligence | IOC Analysis Report and indicators CSV |
+| Phishing analysis | Sample phishing email, triage report, screenshot summary |
+| Network security | Zeek-style connection log and traffic analysis notes |
+| Vulnerability management | Findings CSV, remediation plan, risk rating method |
+| Cloud IAM | Cloud IAM Risk Review, MFA and least privilege review |
+| GRC | Security policy draft, risk register, NIST CSF-style control mapping |
+| Automation | Python Log Triage Tool and sample output |
+
+See [Hiring Readiness Benchmark](./docs/hiring-readiness-benchmark.md) for the full evidence map and remaining improvement plan.
+
 ## Featured Projects
 
 | Project | What I Practiced | Evidence |
