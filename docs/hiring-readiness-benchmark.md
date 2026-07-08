@@ -1,20 +1,20 @@
-# Hiring Readiness Benchmark
+# Portfolio Evidence Review
 
 ## Purpose
 
-I use this checklist to keep the portfolio aligned with what SOC Analyst, Cybersecurity Analyst, Security Specialist, and security-focused IT roles usually need to see quickly: role fit, hands-on evidence, clear project structure, and proof that I can explain security work.
+I use this checklist to keep the portfolio aligned with the work expected in SOC Analyst, Cybersecurity Analyst, Security Specialist, and security-focused IT roles: role fit, hands-on evidence, clear project structure, and the ability to explain security work.
 
-## Benchmark Findings
+## Evidence Review
 
-| What Strong Cybersecurity Portfolios Do | How This Portfolio Addresses It |
+| Portfolio Standard | Current Evidence |
 | --- | --- |
-| Make the target role clear in the first screen | Profile and portfolio now state SOC Analyst, Cybersecurity Analyst, Security Specialist, and security-focused IT roles |
-| Lead with proof, not only certifications | Main README links to logs, screenshots, scripts, detection logic, IOC tables, vulnerability findings, and risk registers |
-| Show realistic SOC workflows | SOC Home Lab, Windows Event Log Analysis, SIEM Detection Lab, Credential Attack Case Study |
-| Include artifacts a reviewer can inspect | CSV logs, Zeek-style logs, phishing email sample, Python output, screenshots, SPL/KQL/Sigma examples |
-| Explain business and technical impact | Vulnerability Assessment Report, Cloud IAM Risk Review, Security Policy and Risk Register |
-| Connect background to role requirements | Career snapshot connects 10+ years of IT work to security operations fundamentals |
-| Keep navigation simple | README has Recruiter Quick Scan, Featured Projects, Career Snapshot, Core Skills, Credentials, and Contact |
+| Target role is clear in the first screen | Profile and portfolio state SOC Analyst, Cybersecurity Analyst, Security Specialist, and security-focused IT roles |
+| Proof is visible beyond certifications | Main README links to logs, screenshots, scripts, detection logic, IOC tables, vulnerability findings, and risk registers |
+| SOC workflows are realistic | SOC Home Lab, Windows Event Log Analysis, SIEM Detection Lab, Credential Attack Case Study |
+| Artifacts can be inspected | CSV logs, Zeek-style logs, phishing email sample, Python output, screenshots, SPL/KQL/Sigma examples |
+| Business and technical impact are explained | Vulnerability Assessment Report, Cloud IAM Risk Review, Security Policy and Risk Register |
+| Background connects to security operations | Career snapshot connects 10+ years of IT work to system hardening, access control, logs, troubleshooting, and incident handling |
+| Navigation is simple | README has Professional Evidence Snapshot, Selected Work, Skills-to-Evidence Map, Career Snapshot, Core Skills, Credentials, and Contact |
 
 ## Evidence Map
 
@@ -42,6 +42,6 @@ I use this checklist to keep the portfolio aligned with what SOC Analyst, Cybers
 
 ## Reference Patterns Used
 
-- Strong portfolio guidance emphasizes proof of skill, not only certificates.
+- Strong cybersecurity portfolios emphasize proof of skill, not only certificates.
 - SOC project guidance repeatedly recommends log analysis, SIEM, incident response, phishing, threat intelligence, network traffic analysis, vulnerability management, and documentation.
 - Strong GitHub repositories make the README easy to scan and keep artifacts organized by project.
