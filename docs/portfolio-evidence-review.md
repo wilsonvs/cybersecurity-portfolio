@@ -9,7 +9,7 @@ I use this checklist to keep the portfolio aligned with the work expected in SOC
 | Portfolio Standard | Current Evidence |
 | --- | --- |
 | Target role is clear in the first screen | Profile and portfolio state SOC Analyst, Cybersecurity Analyst, Security Specialist, and security-focused IT roles |
-| Proof is visible beyond certifications | Main README links to logs, screenshots, scripts, detection logic, IOC tables, vulnerability findings, and risk registers |
+| Practical evidence goes beyond certifications | Main README links to logs, screenshots, scripts, detection logic, IOC tables, vulnerability findings, and risk registers |
 | SOC workflows are realistic | SOC Home Lab, Windows Event Log Analysis, SIEM Detection Lab, Credential Attack Case Study |
 | Artifacts can be inspected | CSV logs, Zeek-style logs, phishing email sample, Python output, screenshots, SPL/KQL/Sigma examples |
 | Business and technical impact are explained | Vulnerability Assessment Report, Cloud IAM Risk Review, Security Policy and Risk Register |
@@ -42,6 +42,6 @@ I use this checklist to keep the portfolio aligned with the work expected in SOC
 
 ## Reference Patterns Used
 
-- Strong cybersecurity portfolios emphasize proof of skill, not only certificates.
+- Strong cybersecurity portfolios emphasize practical evidence, not only certificates.
 - SOC project guidance repeatedly recommends log analysis, SIEM, incident response, phishing, threat intelligence, network traffic analysis, vulnerability management, and documentation.
 - Strong GitHub repositories make the README easy to scan and keep artifacts organized by project.
