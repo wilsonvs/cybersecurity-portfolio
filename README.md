@@ -2,36 +2,36 @@
 
 **Hands-on cybersecurity portfolio by Wilson Vijay Sequeira**
 
-I am an aspiring Cybersecurity Analyst with 10+ years of IT experience across system administration, network management, technical support, and IT operations. This portfolio shows how I am applying that background to security operations: SOC triage, SIEM detection, Windows log analysis, phishing investigation, network traffic review, threat intelligence, vulnerability management, Python automation, cloud IAM, and GRC documentation.
+I am an aspiring Cybersecurity Analyst with 10+ years of IT experience across system administration, network management, technical support, and IT operations. This portfolio connects that background to security operations through SOC triage, SIEM detection, Windows log analysis, phishing investigation, network traffic review, threat intelligence, vulnerability management, Python automation, cloud IAM, and GRC documentation.
 
-## Why This Portfolio Exists
+## Professional Summary
 
-Security operations is built on fundamentals I have already worked with in IT: system hardening, access control, log monitoring, troubleshooting, documentation, escalation, and incident handling. These projects convert that experience into cybersecurity evidence with sample logs, screenshots, scripts, detection logic, risk registers, and investigation notes.
+Security operations is built on fundamentals I have already worked with in IT: system hardening, access control, log monitoring, troubleshooting, documentation, escalation, and incident handling. The work in this repository turns that experience into clear cybersecurity evidence through sample logs, screenshots, scripts, detection logic, risk registers, and investigation notes.
 
-## Recruiter Quick Scan
+## Professional Evidence Snapshot
 
-| Signal | Evidence |
+| Strength | Supporting Evidence |
 | --- | --- |
 | 10+ years IT foundation | IT Administrator, System Administrator, IT Support Specialist experience |
 | Security operations focus | SOC triage, SIEM detection, incident response, threat intelligence labs |
-| Real infrastructure background | Windows/Linux administration, network management, access control, troubleshooting |
+| Infrastructure background | Windows/Linux administration, network management, access control, troubleshooting |
 | Security credentials | ISC2 CC, Google Cybersecurity, SOC Bootcamp, Security+ in progress |
-| Hands-on proof | Sample logs, screenshots, Python script, SPL/KQL, IOC tables, risk register |
+| Hands-on technical evidence | Sample logs, screenshots, Python script, SPL/KQL, IOC tables, risk register |
 | Current threat awareness | Research and writing on Oracle EBS zero-day, Cl0p, ShinyHunters, ransomware, cloud security |
 
-## Open These First
+## Selected Work
 
-| Priority | Project | Why |
+| Priority | Project | Evidence |
 | --- | --- | --- |
-| 1 | [Windows Failed Logon Detection](./detections/windows/failed-logons-followed-by-successful-logon.md) | Shows detection logic, SPL/KQL, MITRE mapping, false-positive review, and response notes |
-| 2 | [SOC Credential Attack Case Study](./labs/soc-home-lab/case-studies/credential-attack-incident-report.md) | Shows alert triage, evidence timeline, findings, and recommendations |
-| 3 | [Python Log Triage Tool](./tools/python-log-triage/README.md) | Shows simple automation using Python and sample authentication logs |
-| 4 | [Phishing Email Analysis](./labs/phishing-email-analysis/README.md) | Shows email triage, header review, URL defanging, and containment thinking |
-| 5 | [Security Policy and Risk Register](./governance-risk-compliance/security-policy-and-risk-register/README.md) | Shows GRC artifacts: policy draft, risk register, and control mapping |
+| 1 | [Windows Failed Logon Detection](./detections/windows/failed-logons-followed-by-successful-logon.md) | Detection logic, SPL/KQL, MITRE mapping, false-positive review, response notes |
+| 2 | [SOC Credential Attack Case Study](./labs/soc-home-lab/case-studies/credential-attack-incident-report.md) | Alert triage, evidence timeline, findings, recommendations |
+| 3 | [Python Log Triage Tool](./tools/python-log-triage/README.md) | Python automation using sample authentication logs |
+| 4 | [Phishing Email Analysis](./labs/phishing-email-analysis/README.md) | Email triage, header review, URL defanging, containment thinking |
+| 5 | [Security Policy and Risk Register](./governance-risk-compliance/security-policy-and-risk-register/README.md) | Policy draft, risk register, control mapping |
 
-## Role Evidence Map
+## Skills-to-Evidence Map
 
-| Target Role Need | Evidence In This Repository |
+| Cybersecurity Skill | Portfolio Evidence |
 | --- | --- |
 | SOC alert triage | SOC Home Lab, Credential Attack Case Study |
 | Windows log analysis | Windows Event Log Analysis, Failed Logon Detection |
@@ -45,9 +45,9 @@ Security operations is built on fundamentals I have already worked with in IT: s
 | GRC | Security policy draft, risk register, NIST CSF-style control mapping |
 | Automation | Python Log Triage Tool and sample output |
 
-See [Hiring Readiness Benchmark](./docs/hiring-readiness-benchmark.md) for the full evidence map and remaining improvement plan.
+See [Portfolio Evidence Review](./docs/portfolio-evidence-review.md) for the full evidence map and improvement plan.
 
-## Featured Projects
+## Project Library
 
 | Project | What I Practiced | Evidence |
 | --- | --- | --- |
