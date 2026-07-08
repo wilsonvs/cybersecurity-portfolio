@@ -45,8 +45,6 @@ Security operations is built on fundamentals I have already worked with in IT: s
 | GRC | Security policy draft, risk register, NIST CSF-style control mapping |
 | Automation | Python Log Triage Tool and sample output |
 
-See [Portfolio Evidence Review](./docs/portfolio-evidence-review.md) for the full evidence map and improvement plan.
-
 ## Project Library
 
 | Project | What I Practiced | Evidence |
