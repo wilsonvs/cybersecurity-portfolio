@@ -8,7 +8,7 @@ I practiced writing governance artifacts that connect technical security work to
 
 | Artifact | What I Created |
 | --- | --- |
-| [security-policy-draft.md](./security-policy-draft.md) | Short policy draft for MFA, patching, logging, access review, and incident reporting |
+| [security-policy.md](./security-policy.md) | Security policy for MFA, patching, logging, access review, and incident reporting |
 | [risk-register.csv](./risk-register.csv) | Risk register with likelihood, impact, owner, treatment, and status |
 | [control-mapping.md](./control-mapping.md) | Mapping between security activities, NIST CSF functions, evidence, and risk value |
 
