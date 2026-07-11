@@ -39,7 +39,7 @@ My background is built on 10+ years of IT operations, including system administr
 | Network security | [Network Traffic Analysis](./labs/network-traffic-analysis/README.md), Zeek-style connection logs and outbound traffic review |
 | Vulnerability management | [Vulnerability Assessment Report](./reports/vulnerability-assessment-report/README.md), findings CSV and remediation plan |
 | Cloud IAM | [Cloud IAM Risk Review](./cloud-security/iam-risk-review/README.md), MFA and least-privilege review |
-| GRC | [Security Policy and Risk Register](./governance-risk-compliance/security-policy-and-risk-register/README.md), policy draft, risk register, control mapping |
+| GRC | [Security Policy and Risk Register](./governance-risk-compliance/security-policy-and-risk-register/README.md), Security policy, risk register, control mapping |
 | Automation | [Python Log Triage Tool](./tools/python-log-triage/README.md), CSV parsing and repeatable investigation output |
 
 ## Project Library
@@ -56,7 +56,7 @@ My background is built on 10+ years of IT operations, including system administr
 | [Cloud IAM Risk Review](./cloud-security/iam-risk-review/README.md) | MFA, least privilege, inactive account review | IAM risk review writeup |
 | [Vulnerability Assessment Report](./reports/vulnerability-assessment-report/README.md) | Risk rating, remediation planning, business impact | [Findings CSV](./reports/vulnerability-assessment-report/vulnerability-findings.csv), remediation plan |
 | [Python Log Triage Tool](./tools/python-log-triage/README.md) | CSV parsing and repeatable authentication review | [Script](./tools/python-log-triage/log_triage.py), [sample output](./tools/python-log-triage/output/sample-output.txt), [output image](./assets/screenshots/python-log-triage-output.svg) |
-| [Security Policy and Risk Register](./governance-risk-compliance/security-policy-and-risk-register/README.md) | Policy writing, risk tracking, control mapping | [Policy draft](./governance-risk-compliance/security-policy-and-risk-register/security-policy-draft.md), [risk register](./governance-risk-compliance/security-policy-and-risk-register/risk-register.csv) |
+| [Security Policy and Risk Register](./governance-risk-compliance/security-policy-and-risk-register/README.md) | Policy writing, risk tracking, control mapping | [Security policy](./governance-risk-compliance/security-policy-and-risk-register/security-policy.md), [risk register](./governance-risk-compliance/security-policy-and-risk-register/risk-register.csv) |
 
 ## Technical Coverage
 
